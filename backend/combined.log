@@ -1,0 +1,519 @@
+{"environment":"development","level":"info","message":"Server started on port 3001","timestamp":"2025-07-28T05:21:31.556Z"}
+{"level":"info","message":"GET /api/health","requestId":"16e54654-3fd9-4ba9-a951-2a7f989c921a","timestamp":"2025-07-28T05:21:59.502Z"}
+{"level":"info","message":"GET /api/health","requestId":"e67ab84b-52fc-427a-9669-c9a41e3eb0bd","timestamp":"2025-07-28T05:21:59.523Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"751b9c09-e613-4d66-9e54-cb25a985baf9","timestamp":"2025-07-28T05:22:04.480Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"751b9c09-e613-4d66-9e54-cb25a985baf9","timestamp":"2025-07-28T05:22:11.218Z"}
+{"level":"info","message":"Analysis completed","requestId":"751b9c09-e613-4d66-9e54-cb25a985baf9","score":4,"timestamp":"2025-07-28T05:22:11.219Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"751b9c09-e613-4d66-9e54-cb25a985baf9","timestamp":"2025-07-28T05:22:14.855Z"}
+{"level":"info","message":"GET /api/health","requestId":"8ab271a6-6665-4af8-b0a8-117b5e0dec8c","timestamp":"2025-07-28T07:07:41.419Z"}
+{"level":"info","message":"GET /api/health","requestId":"96ec8c06-2ab4-4011-a9b0-42dde595b45e","timestamp":"2025-07-28T07:07:41.464Z"}
+{"level":"info","message":"GET /api/health","requestId":"f774311d-8387-4e1c-99ea-7145c6339188","timestamp":"2025-07-28T07:07:56.827Z"}
+{"level":"info","message":"GET /api/health","requestId":"e2d5076f-df35-4aff-a8e3-827b85127fc0","timestamp":"2025-07-28T07:07:56.851Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"1aa9af44-17f2-486c-8c86-1e57dcf7d7e3","timestamp":"2025-07-28T07:08:29.715Z"}
+{"level":"warn","message":"Analysis timeout","requestId":"1aa9af44-17f2-486c-8c86-1e57dcf7d7e3","timestamp":"2025-07-28T07:08:39.763Z"}
+{"error":"Analysis timeout","level":"error","message":"Analysis failed","requestId":"1aa9af44-17f2-486c-8c86-1e57dcf7d7e3","stack":"Error: Analysis timeout\n    at Timeout._onTimeout (C:\\Users\\umindu\\Desktop\\Fake News Detector\\backend\\server.js:170:16)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)","timestamp":"2025-07-28T07:08:39.772Z"}
+{"level":"info","message":"Running fallback analysis","timestamp":"2025-07-28T07:08:39.781Z"}
+{"environment":"development","level":"info","message":"Server started on port 3001","timestamp":"2025-07-28T07:09:40.950Z"}
+{"level":"info","message":"GET /api/health","requestId":"95d2a2c1-a4fe-4e72-b286-7fda8d9216dc","timestamp":"2025-07-28T07:09:58.420Z"}
+{"level":"info","message":"GET /api/health","requestId":"53984f31-ff8b-434f-92e8-d24ba379eaaf","timestamp":"2025-07-28T07:09:58.437Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"e16ca912-b57d-408f-b64c-8d2fc41785a9","timestamp":"2025-07-28T07:12:31.173Z"}
+{"level":"warn","message":"Analysis timeout","requestId":"e16ca912-b57d-408f-b64c-8d2fc41785a9","timestamp":"2025-07-28T07:12:41.625Z"}
+{"error":"Analysis timeout","level":"error","message":"Analysis failed","requestId":"e16ca912-b57d-408f-b64c-8d2fc41785a9","stack":"Error: Analysis timeout\n    at Timeout._onTimeout (C:\\Users\\umindu\\Desktop\\Fake News Detector\\backend\\server.js:170:16)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)","timestamp":"2025-07-28T07:12:41.852Z"}
+{"level":"info","message":"Running fallback analysis","timestamp":"2025-07-28T07:12:41.957Z"}
+{"level":"info","message":"GET /api/health","requestId":"1610e9bd-7cd8-41d7-8adf-1df2be13c20a","timestamp":"2025-07-28T07:18:23.010Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"d5fb2530-2b18-4377-a55e-f30255636588","timestamp":"2025-07-28T07:18:35.309Z"}
+{"level":"warn","message":"Analysis timeout","requestId":"d5fb2530-2b18-4377-a55e-f30255636588","timestamp":"2025-07-28T07:18:45.429Z"}
+{"error":"Analysis timeout","level":"error","message":"Analysis failed","requestId":"d5fb2530-2b18-4377-a55e-f30255636588","stack":"Error: Analysis timeout\n    at Timeout._onTimeout (C:\\Users\\umindu\\Desktop\\Fake News Detector\\backend\\server.js:170:16)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)","timestamp":"2025-07-28T07:18:45.864Z"}
+{"level":"info","message":"Running fallback analysis","timestamp":"2025-07-28T07:18:45.865Z"}
+{"level":"info","message":"GET /api/health","requestId":"65f61a1a-471e-42cd-a47d-9fdd1c9dc26a","timestamp":"2025-07-28T07:19:37.041Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"a8ab66b4-e597-4bed-8d18-ffe7f0bcd223","timestamp":"2025-07-28T07:19:50.127Z"}
+{"level":"warn","message":"Analysis timeout","requestId":"a8ab66b4-e597-4bed-8d18-ffe7f0bcd223","timestamp":"2025-07-28T07:20:00.140Z"}
+{"error":"Analysis timeout","level":"error","message":"Analysis failed","requestId":"a8ab66b4-e597-4bed-8d18-ffe7f0bcd223","stack":"Error: Analysis timeout\n    at Timeout._onTimeout (C:\\Users\\umindu\\Desktop\\Fake News Detector\\backend\\server.js:170:16)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)","timestamp":"2025-07-28T07:20:00.141Z"}
+{"level":"info","message":"Running fallback analysis","timestamp":"2025-07-28T07:20:00.142Z"}
+{"level":"info","message":"GET /api/health","requestId":"604c73ac-752a-4a95-8a13-62ae2cdab94d","timestamp":"2025-07-28T07:20:19.425Z"}
+{"level":"info","message":"GET /api/health","requestId":"ac0b1bdb-67bf-4925-b14d-6fb418d64837","timestamp":"2025-07-28T07:28:32.502Z"}
+{"environment":"development","level":"info","message":"Server started on port 3001","timestamp":"2025-07-28T07:29:06.283Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"254f2edd-fe62-421c-99e8-a0f07b3bc032","timestamp":"2025-07-28T07:29:54.936Z"}
+{"level":"warn","message":"Analysis timeout","requestId":"254f2edd-fe62-421c-99e8-a0f07b3bc032","timestamp":"2025-07-28T07:30:05.111Z"}
+{"error":"Analysis timeout","level":"error","message":"Analysis failed","requestId":"254f2edd-fe62-421c-99e8-a0f07b3bc032","stack":"Error: Analysis timeout\n    at Timeout._onTimeout (C:\\Users\\umindu\\Desktop\\Fake News Detector\\backend\\server.js:183:16)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)","timestamp":"2025-07-28T07:30:05.115Z"}
+{"level":"info","message":"Running fallback analysis","timestamp":"2025-07-28T07:30:05.116Z"}
+{"level":"info","message":"GET /api/health","requestId":"c45456d0-82d7-4942-aa52-504befbd23c7","timestamp":"2025-07-28T07:30:19.484Z"}
+{"level":"info","message":"GET /api/health","requestId":"081f98a2-4a68-42c6-9ff4-7d5597c5aef7","timestamp":"2025-07-28T07:30:19.489Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"663bd5a2-5889-4205-9127-86632b5346d4","timestamp":"2025-07-28T07:30:28.391Z"}
+{"level":"warn","message":"Analysis timeout","requestId":"663bd5a2-5889-4205-9127-86632b5346d4","timestamp":"2025-07-28T07:30:38.400Z"}
+{"error":"Analysis timeout","level":"error","message":"Analysis failed","requestId":"663bd5a2-5889-4205-9127-86632b5346d4","stack":"Error: Analysis timeout\n    at Timeout._onTimeout (C:\\Users\\umindu\\Desktop\\Fake News Detector\\backend\\server.js:183:16)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)","timestamp":"2025-07-28T07:30:38.401Z"}
+{"level":"info","message":"Running fallback analysis","timestamp":"2025-07-28T07:30:38.402Z"}
+{"level":"info","message":"GET /api/analyze","requestId":"03246ff4-a53c-4062-99cc-1d767b318366","timestamp":"2025-07-28T07:30:50.663Z"}
+{"level":"info","message":"GET /api/health","requestId":"77fc7740-6b8b-49bd-95d3-b328e8c90c6f","timestamp":"2025-07-28T07:31:08.799Z"}
+{"level":"info","message":"GET /api/health","requestId":"a18c35d1-f236-4c01-b851-3ef14d45bc43","timestamp":"2025-07-28T07:31:08.803Z"}
+{"level":"info","message":"GET /api/health","requestId":"e2d16510-fe71-42dc-8e0c-84a8ff6d1a63","timestamp":"2025-07-28T07:32:46.456Z"}
+{"level":"info","message":"GET /api/health","requestId":"80e3b659-4c5f-4d22-9d4f-ffb440eaebd9","timestamp":"2025-07-28T07:32:46.461Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"145bf40d-8795-4658-bd87-5784a28dd916","timestamp":"2025-07-28T07:32:49.056Z"}
+{"level":"warn","message":"Analysis timeout","requestId":"145bf40d-8795-4658-bd87-5784a28dd916","timestamp":"2025-07-28T07:32:59.066Z"}
+{"error":"Analysis timeout","level":"error","message":"Analysis failed","requestId":"145bf40d-8795-4658-bd87-5784a28dd916","stack":"Error: Analysis timeout\n    at Timeout._onTimeout (C:\\Users\\umindu\\Desktop\\Fake News Detector\\backend\\server.js:183:16)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)","timestamp":"2025-07-28T07:32:59.067Z"}
+{"level":"info","message":"Running fallback analysis","timestamp":"2025-07-28T07:32:59.068Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"9722e280-9a14-4a15-82d8-7b5904df1602","timestamp":"2025-07-28T07:33:42.876Z"}
+{"level":"warn","message":"Analysis timeout","requestId":"9722e280-9a14-4a15-82d8-7b5904df1602","timestamp":"2025-07-28T07:33:52.881Z"}
+{"error":"Analysis timeout","level":"error","message":"Analysis failed","requestId":"9722e280-9a14-4a15-82d8-7b5904df1602","stack":"Error: Analysis timeout\n    at Timeout._onTimeout (C:\\Users\\umindu\\Desktop\\Fake News Detector\\backend\\server.js:183:16)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)","timestamp":"2025-07-28T07:33:52.883Z"}
+{"level":"info","message":"Running fallback analysis","timestamp":"2025-07-28T07:33:52.884Z"}
+{"level":"info","message":"GET /api/analyze","requestId":"a028ae73-b6d8-427c-8bdf-8d6290e030a5","timestamp":"2025-07-28T07:36:51.653Z"}
+{"level":"info","message":"GET /api/health","requestId":"39eceffd-0919-4cb6-9cc1-054ebb6399ba","timestamp":"2025-07-28T14:21:34.249Z"}
+{"level":"info","message":"GET /api/health","requestId":"46e694ea-8467-4676-87ac-7f16c3d4ffb7","timestamp":"2025-07-28T14:21:34.288Z"}
+{"environment":"development","level":"info","message":"Server started on port 3001","timestamp":"2025-07-29T02:18:30.352Z"}
+{"level":"info","message":"GET /api/health","requestId":"9bef3653-5961-4d33-9120-00395a95f097","timestamp":"2025-07-29T02:18:56.585Z"}
+{"level":"info","message":"GET /api/health","requestId":"b6339788-dd71-45d7-bd28-5148073e7471","timestamp":"2025-07-29T02:18:56.611Z"}
+{"level":"info","message":"GET /api/health","requestId":"54ea240b-0378-4842-b19a-bc8f334c4d09","timestamp":"2025-07-29T04:59:54.243Z"}
+{"level":"info","message":"GET /api/health","requestId":"87c3f1d8-7a7f-44c0-bd0a-8cdd3c843380","timestamp":"2025-07-29T04:59:54.270Z"}
+{"environment":"development","level":"info","message":"Server started on port 3001","timestamp":"2025-07-30T06:02:32.005Z"}
+{"level":"info","message":"GET /api/health","requestId":"3dd05182-cdab-4536-9b05-5ccb7d92c2ee","timestamp":"2025-07-30T06:07:02.197Z"}
+{"level":"info","message":"GET /api/health","requestId":"71e04047-5338-4cd2-b2b7-92db77ac65ee","timestamp":"2025-07-30T06:07:02.204Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"ead5c76a-88c6-4765-a6dd-b6e2c8f2bf1f","timestamp":"2025-07-30T06:07:07.654Z"}
+{"level":"warn","message":"Analysis timeout","requestId":"ead5c76a-88c6-4765-a6dd-b6e2c8f2bf1f","timestamp":"2025-07-30T06:07:18.239Z"}
+{"error":"Analysis timeout","level":"error","message":"Analysis failed","requestId":"ead5c76a-88c6-4765-a6dd-b6e2c8f2bf1f","stack":"Error: Analysis timeout\n    at Timeout._onTimeout (C:\\Users\\umindu\\Desktop\\Fake News Detector\\backend\\server.js:183:16)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)","timestamp":"2025-07-30T06:07:18.243Z"}
+{"level":"info","message":"Running fallback analysis","timestamp":"2025-07-30T06:07:18.244Z"}
+{"level":"info","message":"GET /api/health","requestId":"51733639-3bbb-4c73-b177-5f171aaadd77","timestamp":"2025-07-30T06:15:41.741Z"}
+{"level":"info","message":"GET /api/health","requestId":"53b0107e-0228-4066-b8f3-28c4fbfedbf7","timestamp":"2025-07-30T06:15:41.745Z"}
+{"level":"info","message":"GET /api/health","requestId":"8b045748-a33a-40aa-8670-be83e4d2560a","timestamp":"2025-07-30T06:15:41.748Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"47d16536-1ffe-47fc-b20a-2cf84133aaff","timestamp":"2025-07-30T06:15:55.590Z"}
+{"level":"warn","message":"Analysis timeout","requestId":"47d16536-1ffe-47fc-b20a-2cf84133aaff","timestamp":"2025-07-30T06:16:05.597Z"}
+{"error":"Analysis timeout","level":"error","message":"Analysis failed","requestId":"47d16536-1ffe-47fc-b20a-2cf84133aaff","stack":"Error: Analysis timeout\n    at Timeout._onTimeout (C:\\Users\\umindu\\Desktop\\Fake News Detector\\backend\\server.js:183:16)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)","timestamp":"2025-07-30T06:16:05.599Z"}
+{"level":"info","message":"Running fallback analysis","timestamp":"2025-07-30T06:16:05.600Z"}
+{"environment":"development","level":"info","message":"Server started on port 3001","timestamp":"2025-07-30T07:19:33.970Z"}
+{"level":"info","message":"GET /api/health","requestId":"61bcdd4b-17a0-43be-a889-b36235be0636","timestamp":"2025-07-30T07:20:34.621Z"}
+{"level":"info","message":"GET /api/health","requestId":"dbfeeccb-1561-4e2f-a404-c162fd149f56","timestamp":"2025-07-30T07:20:34.680Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"f39ae767-4214-46bc-b33d-f49d5d9fcd35","timestamp":"2025-07-30T07:21:19.242Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"f39ae767-4214-46bc-b33d-f49d5d9fcd35","timestamp":"2025-07-30T07:21:26.477Z"}
+{"level":"info","message":"Analysis completed","requestId":"f39ae767-4214-46bc-b33d-f49d5d9fcd35","score":4,"timestamp":"2025-07-30T07:21:26.479Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"f39ae767-4214-46bc-b33d-f49d5d9fcd35","timestamp":"2025-07-30T07:21:29.833Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"5fdd163b-762e-4532-8619-329d1c510a39","timestamp":"2025-07-30T07:22:18.737Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"5fdd163b-762e-4532-8619-329d1c510a39","timestamp":"2025-07-30T07:22:20.712Z"}
+{"level":"info","message":"Analysis completed","requestId":"5fdd163b-762e-4532-8619-329d1c510a39","score":4,"timestamp":"2025-07-30T07:22:20.714Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"5fdd163b-762e-4532-8619-329d1c510a39","timestamp":"2025-07-30T07:22:28.744Z"}
+{"level":"info","message":"GET /api/health","requestId":"db3ebcdc-7f1b-44a1-8bd6-1f101cea62a4","timestamp":"2025-07-30T07:24:24.591Z"}
+{"level":"info","message":"GET /api/health","requestId":"12e2c81a-022c-4417-818a-b8504724326b","timestamp":"2025-07-30T07:24:24.595Z"}
+{"level":"info","message":"GET /api/health","requestId":"08174894-8841-4e78-9cec-7ffbfd7f287f","timestamp":"2025-07-30T07:31:35.009Z"}
+{"level":"info","message":"GET /api/health","requestId":"a9ff6fa1-0bd4-41ea-b337-4d45acb62ca6","timestamp":"2025-07-30T07:31:35.493Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"50f6caf2-79b1-4fbb-8efa-f814c3117e88","timestamp":"2025-07-30T07:31:39.230Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"50f6caf2-79b1-4fbb-8efa-f814c3117e88","timestamp":"2025-07-30T07:31:44.280Z"}
+{"level":"info","message":"Analysis completed","requestId":"50f6caf2-79b1-4fbb-8efa-f814c3117e88","score":4,"timestamp":"2025-07-30T07:31:44.285Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"50f6caf2-79b1-4fbb-8efa-f814c3117e88","timestamp":"2025-07-30T07:31:49.263Z"}
+{"level":"info","message":"GET /api/health","requestId":"b05319fe-913c-4c80-b76c-8ea87dd4298b","timestamp":"2025-07-30T07:36:28.688Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"1c97b2ae-6a6e-4a3c-88f3-725e6312c445","timestamp":"2025-07-30T07:36:32.756Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"1c97b2ae-6a6e-4a3c-88f3-725e6312c445","timestamp":"2025-07-30T07:36:38.102Z"}
+{"level":"info","message":"Analysis completed","requestId":"1c97b2ae-6a6e-4a3c-88f3-725e6312c445","score":4,"timestamp":"2025-07-30T07:36:38.104Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"1c97b2ae-6a6e-4a3c-88f3-725e6312c445","timestamp":"2025-07-30T07:36:42.781Z"}
+{"level":"info","message":"GET /api/health","requestId":"8a43195d-76f6-47e1-baba-3c0dce16108d","timestamp":"2025-07-30T07:45:31.520Z"}
+{"level":"info","message":"GET /api/health","requestId":"808d6e14-cc7d-4ec3-baa7-2f779927c759","timestamp":"2025-07-30T07:45:35.077Z"}
+{"level":"info","message":"GET /api/health","requestId":"f08f7c7f-7610-4090-b237-27a3fe5386b4","timestamp":"2025-07-30T07:45:35.102Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"694a5465-638d-4754-87a6-b6ce21586407","timestamp":"2025-07-30T07:45:42.595Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"694a5465-638d-4754-87a6-b6ce21586407","timestamp":"2025-07-30T07:45:49.297Z"}
+{"level":"info","message":"Analysis completed","requestId":"694a5465-638d-4754-87a6-b6ce21586407","score":4,"timestamp":"2025-07-30T07:45:49.300Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"694a5465-638d-4754-87a6-b6ce21586407","timestamp":"2025-07-30T07:45:52.631Z"}
+{"level":"info","message":"GET /api/health","requestId":"83f0ab1e-c1a5-41db-95d4-f1ecdd8f773f","timestamp":"2025-07-30T07:56:41.674Z"}
+{"level":"info","message":"GET /api/health","requestId":"b262440f-8fee-4629-a1cb-9623e800406b","timestamp":"2025-07-30T07:56:41.819Z"}
+{"level":"info","message":"GET /api/health","requestId":"36e53bd6-fc07-4426-88d6-69a355bccd85","timestamp":"2025-07-30T07:56:44.570Z"}
+{"level":"info","message":"GET /api/health","requestId":"2874a391-71bb-4cef-bcdb-e54215b73982","timestamp":"2025-07-30T07:56:44.574Z"}
+{"level":"info","message":"GET /api/health","requestId":"de874f69-8395-4973-a5a8-aefaa0331da9","timestamp":"2025-07-30T07:56:49.425Z"}
+{"level":"info","message":"GET /api/health","requestId":"0ad26353-f71b-4fe7-a88b-1a5b4a4fb885","timestamp":"2025-07-30T07:56:49.466Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"06711ead-8eb0-4dba-a1cd-bdd2abfad9d2","timestamp":"2025-07-30T07:56:53.274Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"06711ead-8eb0-4dba-a1cd-bdd2abfad9d2","timestamp":"2025-07-30T07:57:01.491Z"}
+{"level":"info","message":"Analysis completed","requestId":"06711ead-8eb0-4dba-a1cd-bdd2abfad9d2","score":4,"timestamp":"2025-07-30T07:57:01.845Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"06711ead-8eb0-4dba-a1cd-bdd2abfad9d2","timestamp":"2025-07-30T07:57:03.326Z"}
+{"level":"info","message":"GET /api/health","requestId":"b732f4cb-5d1d-4f71-b28c-7afc177275c6","timestamp":"2025-07-30T07:57:18.084Z"}
+{"level":"info","message":"GET /api/health","requestId":"c47f10a0-26d3-49b9-8f4f-30d6cec346ef","timestamp":"2025-07-30T07:57:18.089Z"}
+{"level":"info","message":"GET /api/health","requestId":"535cb8cf-24fe-4767-af79-36f3969ed101","timestamp":"2025-07-30T08:05:05.603Z"}
+{"level":"info","message":"GET /api/health","requestId":"5eaf99a2-1c78-4e24-97ef-6539b4abafec","timestamp":"2025-07-30T08:05:10.218Z"}
+{"level":"info","message":"GET /api/health","requestId":"fa0c6fac-9634-4cc0-be37-9904cf041315","timestamp":"2025-07-30T08:05:10.274Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"6634d165-7fe7-4b51-a826-dc16fc1c05a9","timestamp":"2025-07-30T08:05:20.624Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"6634d165-7fe7-4b51-a826-dc16fc1c05a9","timestamp":"2025-07-30T08:05:25.171Z"}
+{"level":"info","message":"Analysis completed","requestId":"6634d165-7fe7-4b51-a826-dc16fc1c05a9","score":4,"timestamp":"2025-07-30T08:05:25.176Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"6634d165-7fe7-4b51-a826-dc16fc1c05a9","timestamp":"2025-07-30T08:05:30.656Z"}
+{"level":"info","message":"GET /api/health","requestId":"dcca6ec9-7380-4d54-958d-9d31aeca605a","timestamp":"2025-07-30T08:07:24.001Z"}
+{"level":"info","message":"GET /api/health","requestId":"d5dcbbe8-36c7-4015-b7fe-90f77159cc3d","timestamp":"2025-07-30T08:07:24.005Z"}
+{"level":"info","message":"GET /api/health","requestId":"714de6d9-172d-4e3f-af18-2f485404c003","timestamp":"2025-07-30T08:27:26.489Z"}
+{"level":"info","message":"GET /api/health","requestId":"0b9651b0-85f4-413d-a27b-1be38f1db99a","timestamp":"2025-07-30T08:27:26.529Z"}
+{"level":"info","message":"GET /api/health","requestId":"f10f4ebe-5654-4708-995e-99604d899655","timestamp":"2025-07-30T08:27:32.297Z"}
+{"level":"info","message":"GET /api/health","requestId":"01ffc7dd-4ae7-490d-9bfc-f939833cfc5e","timestamp":"2025-07-30T08:27:34.972Z"}
+{"level":"info","message":"GET /api/health","requestId":"53f58a15-a59b-4ca3-b23c-2bf419b0a69e","timestamp":"2025-07-30T08:27:35.002Z"}
+{"level":"info","message":"GET /api/health","requestId":"dd3d7314-0f04-4a2b-82d9-ff3d48e4f772","timestamp":"2025-07-30T08:29:27.416Z"}
+{"level":"info","message":"GET /api/health","requestId":"47d8da58-6e12-4dad-ba4b-931cd08b3be9","timestamp":"2025-07-30T08:29:27.469Z"}
+{"level":"info","message":"GET /api/health","requestId":"5f04c4f8-963f-4d0f-ae28-7bc488f2ad0b","timestamp":"2025-07-30T08:31:03.619Z"}
+{"level":"info","message":"GET /api/health","requestId":"8d3d4629-a80e-433c-a009-b1eed8eb98c5","timestamp":"2025-07-30T08:31:03.626Z"}
+{"level":"info","message":"GET /api/health","requestId":"06d4b3b3-e60c-46f4-bae3-973e913228ea","timestamp":"2025-07-30T08:32:18.592Z"}
+{"level":"info","message":"GET /api/health","requestId":"de7907e9-0508-4bec-aa53-fe68497220b4","timestamp":"2025-07-30T08:32:18.599Z"}
+{"level":"info","message":"GET /api/health","requestId":"02f1b81c-c452-4791-bbfb-61465252ec50","timestamp":"2025-07-30T08:38:59.103Z"}
+{"level":"info","message":"GET /api/health","requestId":"246be452-b200-4959-adcd-841f15644460","timestamp":"2025-07-30T08:38:59.210Z"}
+{"level":"info","message":"GET /api/health","requestId":"92060dbb-bb21-4468-9128-5d6b11cde54c","timestamp":"2025-07-30T08:41:12.686Z"}
+{"level":"info","message":"GET /api/health","requestId":"a524b502-6509-4bcd-9538-9c54a3bdaf7d","timestamp":"2025-07-30T08:41:12.715Z"}
+{"level":"info","message":"GET /api/health","requestId":"fccc5aaf-5512-487d-8487-b250dc4dcdfc","timestamp":"2025-07-30T08:41:14.542Z"}
+{"level":"info","message":"GET /api/health","requestId":"50cff29c-62c2-4086-9722-52c7ad2d28ee","timestamp":"2025-07-30T08:41:14.546Z"}
+{"level":"info","message":"GET /api/health","requestId":"125e41b1-03c3-4eee-8ea0-1a49adf0578a","timestamp":"2025-07-30T08:41:15.732Z"}
+{"level":"info","message":"GET /api/health","requestId":"8affc483-070a-401e-bc71-effd4e0dc4d9","timestamp":"2025-07-30T08:41:15.794Z"}
+{"level":"info","message":"GET /api/health","requestId":"b3345233-ed67-4d7c-b763-fc7852a2ecb0","timestamp":"2025-07-30T08:41:17.122Z"}
+{"level":"info","message":"GET /api/health","requestId":"1a43efb9-0bdb-469e-8dab-99a533581e0b","timestamp":"2025-07-30T08:43:23.558Z"}
+{"level":"info","message":"GET /api/health","requestId":"63afc576-e9c6-4fcb-a258-065f03ab1fa7","timestamp":"2025-07-30T08:43:23.565Z"}
+{"level":"info","message":"GET /api/health","requestId":"b6373b99-2719-4b62-a2a1-eafe20d2bf6f","timestamp":"2025-07-30T08:43:25.736Z"}
+{"level":"info","message":"GET /api/health","requestId":"d5df7adf-d715-472a-ba1b-ec7d60e27d70","timestamp":"2025-07-30T08:43:25.757Z"}
+{"level":"info","message":"GET /api/health","requestId":"08ca03d2-8f4d-4b88-9b8f-214a27e825aa","timestamp":"2025-07-30T08:43:25.763Z"}
+{"level":"info","message":"GET /api/health","requestId":"a0bfa798-2316-4e67-93ed-dccd438da044","timestamp":"2025-07-30T08:43:35.037Z"}
+{"level":"info","message":"GET /api/health","requestId":"cf5d3b9a-0b23-4196-a311-cc48d47d5101","timestamp":"2025-07-30T08:43:35.044Z"}
+{"level":"info","message":"GET /api/health","requestId":"1f2d1f86-641d-46a2-871e-be59a39b9480","timestamp":"2025-07-30T08:44:20.146Z"}
+{"level":"info","message":"GET /api/health","requestId":"2f313e9c-a8a9-4c2e-ad98-e21a759505d1","timestamp":"2025-07-30T08:44:20.150Z"}
+{"level":"info","message":"GET /api/health","requestId":"b3fe92b0-ff62-4845-9f5d-93b3a11894e7","timestamp":"2025-07-30T08:44:20.153Z"}
+{"level":"info","message":"GET /api/health","requestId":"e090c8c5-a3aa-4a8e-b198-74c53fd6c4da","timestamp":"2025-07-30T09:10:25.743Z"}
+{"level":"info","message":"GET /api/health","requestId":"a33d9419-b690-4a96-ae20-8cf95704f4c5","timestamp":"2025-07-30T09:10:25.759Z"}
+{"level":"info","message":"GET /api/health","requestId":"4ee7f512-da34-4e0b-a062-695d9ac230f5","timestamp":"2025-07-30T09:12:08.732Z"}
+{"level":"info","message":"GET /api/health","requestId":"7295d9a0-9d96-4b42-a8d7-42b3f7659c71","timestamp":"2025-07-30T09:12:08.745Z"}
+{"level":"info","message":"GET /api/health","requestId":"0fda0bb0-5f4a-4159-ac0b-ba6a03c982de","timestamp":"2025-07-30T09:12:20.764Z"}
+{"level":"info","message":"GET /api/health","requestId":"39dfaf91-f0af-4331-9e3e-7654fb509304","timestamp":"2025-07-30T09:12:20.771Z"}
+{"level":"info","message":"GET /api/health","requestId":"31b6495f-3e8f-4397-80a2-f4da393d8a42","timestamp":"2025-07-30T09:13:15.274Z"}
+{"level":"info","message":"GET /api/health","requestId":"e564ba29-e9c8-454c-bb89-acfc284e5f46","timestamp":"2025-07-30T09:13:15.278Z"}
+{"level":"info","message":"GET /api/health","requestId":"2c8186e6-9ec1-49e0-bca0-c52e3307d936","timestamp":"2025-07-30T09:13:15.281Z"}
+{"level":"info","message":"GET /api/health","requestId":"c497dd05-e297-42e5-9170-90c0238ffd4b","timestamp":"2025-07-30T09:16:32.567Z"}
+{"level":"info","message":"GET /api/health","requestId":"c72c369b-1e86-462b-a4d5-79cd1b0e6ae6","timestamp":"2025-07-30T09:16:32.590Z"}
+{"level":"info","message":"GET /api/health","requestId":"0023a4bb-f433-45c9-bf33-cbabbd305fc5","timestamp":"2025-07-30T09:17:14.417Z"}
+{"level":"info","message":"GET /api/health","requestId":"e27a673b-d737-42d0-bbdf-150d3f2f7c97","timestamp":"2025-07-30T09:17:14.430Z"}
+{"level":"info","message":"GET /api/health","requestId":"a1d8f296-55a7-4a6b-b4b4-9d665da8f091","timestamp":"2025-07-30T09:19:33.192Z"}
+{"level":"info","message":"GET /api/health","requestId":"980b9674-51a5-413a-a1dc-2d212356617a","timestamp":"2025-07-30T09:19:33.241Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"70f2d6ea-dee6-4a71-b86c-54f09c08cf74","timestamp":"2025-07-30T09:41:52.347Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"70f2d6ea-dee6-4a71-b86c-54f09c08cf74","timestamp":"2025-07-30T09:41:57.911Z"}
+{"level":"info","message":"Analysis completed","requestId":"70f2d6ea-dee6-4a71-b86c-54f09c08cf74","score":4,"timestamp":"2025-07-30T09:41:57.952Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"70f2d6ea-dee6-4a71-b86c-54f09c08cf74","timestamp":"2025-07-30T09:42:02.397Z"}
+{"level":"info","message":"GET /api/health","requestId":"8f3ba24b-5f3f-4d96-b780-2fcfe751c50b","timestamp":"2025-07-30T09:43:47.570Z"}
+{"level":"info","message":"GET /api/health","requestId":"6def8b08-8d9a-48e8-9c4c-395961871e43","timestamp":"2025-07-30T09:43:48.366Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"95095947-c2d0-4585-aaa9-03e48819b33a","timestamp":"2025-07-30T09:43:52.857Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"95095947-c2d0-4585-aaa9-03e48819b33a","timestamp":"2025-07-30T09:43:58.702Z"}
+{"level":"info","message":"Analysis completed","requestId":"95095947-c2d0-4585-aaa9-03e48819b33a","score":4,"timestamp":"2025-07-30T09:43:58.703Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"95095947-c2d0-4585-aaa9-03e48819b33a","timestamp":"2025-07-30T09:44:02.870Z"}
+{"level":"info","message":"GET /api/health","requestId":"217e3c79-184a-438d-9b51-ad0c89ff6f8e","timestamp":"2025-07-30T09:44:17.530Z"}
+{"level":"info","message":"GET /api/health","requestId":"7dfefd09-f5a2-4b48-9631-1b5f30d75717","timestamp":"2025-07-30T09:44:17.534Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"c9324448-118e-4279-bc56-91c8d7bd35e2","timestamp":"2025-07-30T09:44:20.803Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"c9324448-118e-4279-bc56-91c8d7bd35e2","timestamp":"2025-07-30T09:44:22.090Z"}
+{"level":"info","message":"Analysis completed","requestId":"c9324448-118e-4279-bc56-91c8d7bd35e2","score":4,"timestamp":"2025-07-30T09:44:22.091Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"c9324448-118e-4279-bc56-91c8d7bd35e2","timestamp":"2025-07-30T09:44:30.811Z"}
+{"level":"info","message":"GET /api/health","requestId":"81f8978e-9278-43ba-ba7c-dacd28f08dfc","timestamp":"2025-07-30T09:44:33.798Z"}
+{"environment":"development","level":"info","message":"Server started on port 3001","timestamp":"2025-07-31T02:13:55.285Z"}
+{"level":"info","message":"GET /api/health","requestId":"0c4c348f-f903-4655-b69e-f079fdb63ecc","timestamp":"2025-07-31T02:14:02.728Z"}
+{"level":"info","message":"GET /api/health","requestId":"0b5a6497-05fa-4027-aab5-aa29a7d8ede8","timestamp":"2025-07-31T02:14:02.739Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"cc930716-aac2-486a-8dfa-45c08865753b","timestamp":"2025-07-31T02:14:48.415Z"}
+{"level":"warn","message":"Analysis timeout","requestId":"cc930716-aac2-486a-8dfa-45c08865753b","timestamp":"2025-07-31T02:14:58.613Z"}
+{"error":"Analysis timeout","level":"error","message":"Analysis failed","requestId":"cc930716-aac2-486a-8dfa-45c08865753b","stack":"Error: Analysis timeout\n    at Timeout._onTimeout (C:\\Users\\umindu\\Desktop\\Fake News Detector\\backend\\server.js:183:16)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)","timestamp":"2025-07-31T02:14:58.614Z"}
+{"level":"info","message":"Running fallback analysis","timestamp":"2025-07-31T02:14:58.615Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"b58f6449-9f36-43ee-a5ad-b0ec568b26dc","timestamp":"2025-07-31T02:15:13.246Z"}
+{"level":"warn","message":"Analysis timeout","requestId":"b58f6449-9f36-43ee-a5ad-b0ec568b26dc","timestamp":"2025-07-31T02:15:23.253Z"}
+{"error":"Analysis timeout","level":"error","message":"Analysis failed","requestId":"b58f6449-9f36-43ee-a5ad-b0ec568b26dc","stack":"Error: Analysis timeout\n    at Timeout._onTimeout (C:\\Users\\umindu\\Desktop\\Fake News Detector\\backend\\server.js:183:16)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)","timestamp":"2025-07-31T02:15:23.254Z"}
+{"level":"info","message":"Running fallback analysis","timestamp":"2025-07-31T02:15:23.255Z"}
+{"level":"info","message":"GET /api/health","requestId":"5d1e881e-bf2c-4881-8f58-ae5c619e13e7","timestamp":"2025-07-31T02:15:32.467Z"}
+{"level":"info","message":"GET /api/health","requestId":"2eeb8568-b6c1-4074-9fdb-ce1de4506b8d","timestamp":"2025-07-31T02:15:32.470Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"3b2c3530-da2a-4cb2-9563-f02c22dcdc5e","timestamp":"2025-07-31T02:15:48.682Z"}
+{"level":"warn","message":"Analysis timeout","requestId":"3b2c3530-da2a-4cb2-9563-f02c22dcdc5e","timestamp":"2025-07-31T02:15:58.692Z"}
+{"error":"Analysis timeout","level":"error","message":"Analysis failed","requestId":"3b2c3530-da2a-4cb2-9563-f02c22dcdc5e","stack":"Error: Analysis timeout\n    at Timeout._onTimeout (C:\\Users\\umindu\\Desktop\\Fake News Detector\\backend\\server.js:183:16)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)","timestamp":"2025-07-31T02:15:58.692Z"}
+{"level":"info","message":"Running fallback analysis","timestamp":"2025-07-31T02:15:58.693Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"7e28f190-5ec0-43cf-be12-2948f7b84bd8","timestamp":"2025-07-31T02:37:43.726Z"}
+{"level":"warn","message":"Analysis timeout","requestId":"7e28f190-5ec0-43cf-be12-2948f7b84bd8","timestamp":"2025-07-31T02:37:53.759Z"}
+{"error":"Analysis timeout","level":"error","message":"Analysis failed","requestId":"7e28f190-5ec0-43cf-be12-2948f7b84bd8","stack":"Error: Analysis timeout\n    at Timeout._onTimeout (C:\\Users\\umindu\\Desktop\\Fake News Detector\\backend\\server.js:183:16)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)","timestamp":"2025-07-31T02:37:53.771Z"}
+{"level":"info","message":"Running fallback analysis","timestamp":"2025-07-31T02:37:53.772Z"}
+{"environment":"development","level":"info","message":"Server started on port 3001","timestamp":"2025-07-31T02:38:09.303Z"}
+{"level":"info","message":"GET /api/health","requestId":"5b5e6a7d-0d19-4190-a403-b9ce0388633c","timestamp":"2025-07-31T02:38:20.191Z"}
+{"level":"info","message":"GET /api/health","requestId":"26e0d2bc-6c5a-4378-aa42-a228ee11c8e2","timestamp":"2025-07-31T02:38:20.199Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"893b05f0-aec5-4735-b919-cc6d29f4bc95","timestamp":"2025-07-31T02:38:23.437Z"}
+{"level":"warn","message":"Analysis timeout","requestId":"893b05f0-aec5-4735-b919-cc6d29f4bc95","timestamp":"2025-07-31T02:38:33.583Z"}
+{"error":"Analysis timeout","level":"error","message":"Analysis failed","requestId":"893b05f0-aec5-4735-b919-cc6d29f4bc95","stack":"Error: Analysis timeout\n    at Timeout._onTimeout (C:\\Users\\umindu\\Desktop\\Fake News Detector\\backend\\server.js:183:16)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)","timestamp":"2025-07-31T02:38:33.588Z"}
+{"level":"info","message":"Running fallback analysis","timestamp":"2025-07-31T02:38:33.590Z"}
+{"level":"info","message":"GET /api/health","requestId":"48999b5f-969b-42df-b4df-97b2b38461c8","timestamp":"2025-07-31T02:43:01.107Z"}
+{"level":"info","message":"GET /api/health","requestId":"8da1ffa1-7473-4f86-af39-594de6544d9f","timestamp":"2025-07-31T02:43:01.174Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"5712ce08-09e2-41fd-8e21-f007279e1d4e","timestamp":"2025-07-31T02:43:05.164Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"5712ce08-09e2-41fd-8e21-f007279e1d4e","timestamp":"2025-07-31T02:43:11.144Z"}
+{"level":"info","message":"Analysis completed","requestId":"5712ce08-09e2-41fd-8e21-f007279e1d4e","score":4,"timestamp":"2025-07-31T02:43:11.149Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"5712ce08-09e2-41fd-8e21-f007279e1d4e","timestamp":"2025-07-31T02:43:15.313Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"a8f02390-eab7-4a45-a161-8b0cf5b3cbc8","timestamp":"2025-07-31T03:05:54.753Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"a8f02390-eab7-4a45-a161-8b0cf5b3cbc8","timestamp":"2025-07-31T03:06:00.409Z"}
+{"level":"info","message":"Analysis completed","requestId":"a8f02390-eab7-4a45-a161-8b0cf5b3cbc8","score":4,"timestamp":"2025-07-31T03:06:00.410Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"a8f02390-eab7-4a45-a161-8b0cf5b3cbc8","timestamp":"2025-07-31T03:06:05.042Z"}
+{"level":"info","message":"GET /api/health","requestId":"b93725d4-5e06-405c-8978-a2ba252cd509","timestamp":"2025-07-31T03:07:08.114Z"}
+{"level":"info","message":"GET /api/health","requestId":"23765c39-374d-4375-a3a8-1c633730664c","timestamp":"2025-07-31T03:07:08.130Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"aa25336e-a2d7-44ae-91cd-c19dcb44854c","timestamp":"2025-07-31T03:07:12.304Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"aa25336e-a2d7-44ae-91cd-c19dcb44854c","timestamp":"2025-07-31T03:07:13.717Z"}
+{"level":"info","message":"Analysis completed","requestId":"aa25336e-a2d7-44ae-91cd-c19dcb44854c","score":4,"timestamp":"2025-07-31T03:07:13.718Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"aa25336e-a2d7-44ae-91cd-c19dcb44854c","timestamp":"2025-07-31T03:07:22.317Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"b973f749-9dd9-41ac-bc8d-e711306658e8","timestamp":"2025-07-31T03:11:17.176Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"b973f749-9dd9-41ac-bc8d-e711306658e8","timestamp":"2025-07-31T03:11:22.200Z"}
+{"level":"info","message":"Analysis completed","requestId":"b973f749-9dd9-41ac-bc8d-e711306658e8","score":4,"timestamp":"2025-07-31T03:11:22.201Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"b973f749-9dd9-41ac-bc8d-e711306658e8","timestamp":"2025-07-31T03:11:27.187Z"}
+{"level":"info","message":"GET /api/health","requestId":"49d18e55-870b-470e-9a35-c94ccf97fa7a","timestamp":"2025-07-31T03:11:27.678Z"}
+{"level":"info","message":"GET /api/health","requestId":"052dae5a-225d-4679-b1a4-a95378211bd2","timestamp":"2025-07-31T03:11:27.687Z"}
+{"level":"info","message":"GET /api/health","requestId":"3089ba08-07f5-4890-9f63-927ba47bad73","timestamp":"2025-07-31T03:15:02.623Z"}
+{"level":"info","message":"GET /api/health","requestId":"21c56cf0-48d0-40ca-a4e9-0525f307c864","timestamp":"2025-07-31T03:15:02.775Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"11db5b35-439d-451f-bbb0-dcee1f59d810","timestamp":"2025-07-31T03:15:05.273Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"11db5b35-439d-451f-bbb0-dcee1f59d810","timestamp":"2025-07-31T03:15:10.477Z"}
+{"level":"info","message":"Analysis completed","requestId":"11db5b35-439d-451f-bbb0-dcee1f59d810","score":4,"timestamp":"2025-07-31T03:15:10.478Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"11db5b35-439d-451f-bbb0-dcee1f59d810","timestamp":"2025-07-31T03:15:15.286Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"e9c7f2e8-33c9-4d6a-911b-55696b96bac4","timestamp":"2025-07-31T03:15:18.932Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"e9c7f2e8-33c9-4d6a-911b-55696b96bac4","timestamp":"2025-07-31T03:15:20.398Z"}
+{"level":"info","message":"Analysis completed","requestId":"e9c7f2e8-33c9-4d6a-911b-55696b96bac4","score":4,"timestamp":"2025-07-31T03:15:20.398Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"e9c7f2e8-33c9-4d6a-911b-55696b96bac4","timestamp":"2025-07-31T03:15:28.944Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"59a95f91-755d-401a-8fd7-08a91f9b2ccb","timestamp":"2025-07-31T03:16:46.880Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"59a95f91-755d-401a-8fd7-08a91f9b2ccb","timestamp":"2025-07-31T03:16:52.267Z"}
+{"level":"info","message":"Analysis completed","requestId":"59a95f91-755d-401a-8fd7-08a91f9b2ccb","score":4,"timestamp":"2025-07-31T03:16:52.268Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"59a95f91-755d-401a-8fd7-08a91f9b2ccb","timestamp":"2025-07-31T03:16:56.894Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"cc89f290-a19e-4838-915a-712f9273d5e6","timestamp":"2025-07-31T03:17:10.647Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"cc89f290-a19e-4838-915a-712f9273d5e6","timestamp":"2025-07-31T03:17:12.517Z"}
+{"level":"info","message":"Analysis completed","requestId":"cc89f290-a19e-4838-915a-712f9273d5e6","score":4,"timestamp":"2025-07-31T03:17:12.518Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"cc89f290-a19e-4838-915a-712f9273d5e6","timestamp":"2025-07-31T03:17:20.649Z"}
+{"level":"info","message":"GET /api/health","requestId":"5ede0c8a-ca07-428a-a3c9-21f1e4036ba7","timestamp":"2025-07-31T03:17:26.887Z"}
+{"level":"info","message":"GET /api/health","requestId":"183ae8a2-2623-4946-ba7f-e75a9c9ee96e","timestamp":"2025-07-31T03:17:26.891Z"}
+{"level":"info","message":"GET /api/health","requestId":"61fa7786-38b8-4caf-aa80-8ee1cc6e5df2","timestamp":"2025-07-31T03:23:43.863Z"}
+{"level":"info","message":"GET /api/health","requestId":"cbd2996c-9dca-4432-8fe5-d163823b1f3f","timestamp":"2025-07-31T03:23:43.888Z"}
+{"level":"info","message":"GET /api/health","requestId":"49f3c1de-6e32-4f6a-b943-f55f3cce7afd","timestamp":"2025-07-31T03:24:39.750Z"}
+{"level":"info","message":"GET /api/health","requestId":"8a1d3713-5759-4d3f-928d-613fa5864c21","timestamp":"2025-07-31T03:24:39.783Z"}
+{"level":"info","message":"GET /api/health","requestId":"5bd9f7b7-bb43-43ff-b5e7-cf4a404d8b58","timestamp":"2025-07-31T03:25:00.295Z"}
+{"level":"info","message":"GET /api/health","requestId":"66500d76-1a47-4a0e-a0d9-67c9b2db83cd","timestamp":"2025-07-31T03:25:00.301Z"}
+{"level":"info","message":"GET /api/health","requestId":"13cefd9f-2da2-402a-ad3d-e253d49ce319","timestamp":"2025-07-31T03:26:16.844Z"}
+{"level":"info","message":"GET /api/health","requestId":"059437bd-865f-4391-85de-a87341de587c","timestamp":"2025-07-31T03:26:16.847Z"}
+{"level":"info","message":"GET /api/health","requestId":"30585367-785a-4b16-9538-1dae4ba96c5f","timestamp":"2025-07-31T03:26:18.081Z"}
+{"level":"info","message":"GET /api/health","requestId":"e4ec31fb-3dd3-4b95-9f45-7142b040b035","timestamp":"2025-07-31T03:26:18.087Z"}
+{"level":"info","message":"GET /api/health","requestId":"0364d3af-2df6-464c-b498-e2cefd1f8254","timestamp":"2025-07-31T03:26:18.090Z"}
+{"level":"info","message":"GET /api/health","requestId":"7238c833-0bb1-4a24-89d1-4b2dae3b07b6","timestamp":"2025-07-31T03:26:38.539Z"}
+{"level":"info","message":"GET /api/health","requestId":"bdb4df77-2528-4599-a9a8-495f15e53cbb","timestamp":"2025-07-31T03:26:38.546Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"20749f31-3602-4f4e-aca8-43d58c946fb9","timestamp":"2025-07-31T03:27:04.179Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"20749f31-3602-4f4e-aca8-43d58c946fb9","timestamp":"2025-07-31T03:27:12.431Z"}
+{"level":"info","message":"Analysis completed","requestId":"20749f31-3602-4f4e-aca8-43d58c946fb9","score":4,"timestamp":"2025-07-31T03:27:12.433Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"20749f31-3602-4f4e-aca8-43d58c946fb9","timestamp":"2025-07-31T03:27:14.185Z"}
+{"level":"info","message":"GET /api/health","requestId":"00675e0c-57fa-46dc-90fc-88230611d6d2","timestamp":"2025-07-31T03:28:33.295Z"}
+{"level":"info","message":"GET /api/health","requestId":"b4ea6f26-83ce-45d6-baf2-5591484d0d3e","timestamp":"2025-07-31T03:28:33.298Z"}
+{"level":"info","message":"GET /api/health","requestId":"0c7d741a-3130-47ab-b679-ad49d3b64175","timestamp":"2025-07-31T08:10:39.986Z"}
+{"level":"info","message":"GET /api/health","requestId":"a5220356-8eb4-4364-a32b-a422b4bef767","timestamp":"2025-07-31T08:10:40.027Z"}
+{"level":"info","message":"GET /api/health","requestId":"ac9483b2-d4d4-4049-8e8b-f7801e601ff1","timestamp":"2025-07-31T08:12:57.220Z"}
+{"level":"info","message":"GET /api/health","requestId":"58b85a58-b731-4db5-a497-004c88d8c598","timestamp":"2025-07-31T08:12:57.223Z"}
+{"level":"info","message":"GET /api/health","requestId":"a06486c9-89fc-4a5d-89e7-d87feb42ad2a","timestamp":"2025-07-31T08:16:18.070Z"}
+{"level":"info","message":"GET /api/health","requestId":"eb1529fe-a1ec-4276-a77c-c6e265d23ca7","timestamp":"2025-07-31T08:16:18.127Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"8114d9fc-06a5-4cd3-89a8-080636684280","timestamp":"2025-07-31T08:18:46.935Z"}
+{"level":"warn","message":"Analysis timeout","requestId":"8114d9fc-06a5-4cd3-89a8-080636684280","timestamp":"2025-07-31T08:18:56.990Z"}
+{"error":"Analysis timeout","level":"error","message":"Analysis failed","requestId":"8114d9fc-06a5-4cd3-89a8-080636684280","stack":"Error: Analysis timeout\n    at Timeout._onTimeout (C:\\Users\\umindu\\Desktop\\Fake News Detector\\backend\\server.js:183:16)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)","timestamp":"2025-07-31T08:18:57.009Z"}
+{"level":"info","message":"Running fallback analysis","timestamp":"2025-07-31T08:18:57.024Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"56381c2b-af14-4380-a5aa-5297dc80a0fd","timestamp":"2025-07-31T08:24:38.363Z"}
+{"level":"warn","message":"Analysis timeout","requestId":"56381c2b-af14-4380-a5aa-5297dc80a0fd","timestamp":"2025-07-31T08:24:48.477Z"}
+{"error":"Analysis timeout","level":"error","message":"Analysis failed","requestId":"56381c2b-af14-4380-a5aa-5297dc80a0fd","stack":"Error: Analysis timeout\n    at Timeout._onTimeout (C:\\Users\\umindu\\Desktop\\Fake News Detector\\backend\\server.js:183:16)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)","timestamp":"2025-07-31T08:24:48.941Z"}
+{"level":"info","message":"Running fallback analysis","timestamp":"2025-07-31T08:24:49.042Z"}
+{"level":"info","message":"GET /api/health","requestId":"b1f9b692-d4f1-4ef1-8d03-16b6dab42910","timestamp":"2025-07-31T08:27:30.575Z"}
+{"level":"info","message":"GET /api/health","requestId":"f8fcb0b4-0115-4b07-8a71-2fb98eeb0bf3","timestamp":"2025-07-31T08:27:30.838Z"}
+{"level":"info","message":"GET /api/health","requestId":"f058dba5-5b8e-4963-8d32-744858532616","timestamp":"2025-07-31T08:32:12.852Z"}
+{"level":"info","message":"GET /api/health","requestId":"6da1bd2b-c732-49b1-9057-69aa4a24c82e","timestamp":"2025-07-31T08:32:12.887Z"}
+{"level":"info","message":"GET /api/health","requestId":"91aaa172-35b7-4804-acb3-6c10f7850e30","timestamp":"2025-07-31T08:32:20.667Z"}
+{"level":"info","message":"GET /api/health","requestId":"e63c90e5-80a9-479e-915b-1b9a22373834","timestamp":"2025-07-31T08:32:20.753Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"fe52953d-151e-4c28-a10b-cdef2b0fa6e2","timestamp":"2025-07-31T08:36:01.638Z"}
+{"level":"warn","message":"Analysis timeout","requestId":"fe52953d-151e-4c28-a10b-cdef2b0fa6e2","timestamp":"2025-07-31T08:36:11.797Z"}
+{"error":"Analysis timeout","level":"error","message":"Analysis failed","requestId":"fe52953d-151e-4c28-a10b-cdef2b0fa6e2","stack":"Error: Analysis timeout\n    at Timeout._onTimeout (C:\\Users\\umindu\\Desktop\\Fake News Detector\\backend\\server.js:183:16)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)","timestamp":"2025-07-31T08:36:12.259Z"}
+{"level":"info","message":"Running fallback analysis","timestamp":"2025-07-31T08:36:12.306Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"250a0f65-990b-4c3f-bb73-395d85e7b6d9","timestamp":"2025-07-31T08:36:15.781Z"}
+{"level":"warn","message":"Analysis timeout","requestId":"250a0f65-990b-4c3f-bb73-395d85e7b6d9","timestamp":"2025-07-31T08:36:25.789Z"}
+{"error":"Analysis timeout","level":"error","message":"Analysis failed","requestId":"250a0f65-990b-4c3f-bb73-395d85e7b6d9","stack":"Error: Analysis timeout\n    at Timeout._onTimeout (C:\\Users\\umindu\\Desktop\\Fake News Detector\\backend\\server.js:183:16)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)","timestamp":"2025-07-31T08:36:25.826Z"}
+{"level":"info","message":"Running fallback analysis","timestamp":"2025-07-31T08:36:25.904Z"}
+{"level":"info","message":"GET /api/health","requestId":"569b2f98-6042-4e10-b0c7-77f28d9564d3","timestamp":"2025-07-31T08:36:42.664Z"}
+{"level":"info","message":"GET /api/health","requestId":"9a277a3a-4521-4c5a-b876-02b176e0c40d","timestamp":"2025-07-31T08:36:42.679Z"}
+{"level":"info","message":"GET /api/health","requestId":"97756356-4501-4025-9a7e-234aad4db60a","timestamp":"2025-07-31T08:36:42.686Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"c2b0ae94-e248-43db-af73-417d0157b923","timestamp":"2025-07-31T08:38:59.252Z"}
+{"level":"warn","message":"Analysis timeout","requestId":"c2b0ae94-e248-43db-af73-417d0157b923","timestamp":"2025-07-31T08:39:09.491Z"}
+{"error":"Analysis timeout","level":"error","message":"Analysis failed","requestId":"c2b0ae94-e248-43db-af73-417d0157b923","stack":"Error: Analysis timeout\n    at Timeout._onTimeout (C:\\Users\\umindu\\Desktop\\Fake News Detector\\backend\\server.js:183:16)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)","timestamp":"2025-07-31T08:39:10.241Z"}
+{"level":"info","message":"Running fallback analysis","timestamp":"2025-07-31T08:39:10.290Z"}
+{"environment":"development","level":"info","message":"Server started on port 3001","timestamp":"2025-07-31T08:40:02.112Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"f1522ad5-eb44-4a7d-bd58-8a22bee8a5bd","timestamp":"2025-07-31T08:40:07.590Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"f1522ad5-eb44-4a7d-bd58-8a22bee8a5bd","timestamp":"2025-07-31T08:40:14.493Z"}
+{"level":"info","message":"Analysis completed","requestId":"f1522ad5-eb44-4a7d-bd58-8a22bee8a5bd","score":4,"timestamp":"2025-07-31T08:40:14.495Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"f1522ad5-eb44-4a7d-bd58-8a22bee8a5bd","timestamp":"2025-07-31T08:40:18.343Z"}
+{"level":"info","message":"GET /api/health","requestId":"8e086dbd-b7f4-416c-8088-19ecc0180445","timestamp":"2025-07-31T08:40:45.468Z"}
+{"level":"info","message":"GET /api/health","requestId":"6d5cb0c0-bb3f-4af8-88ce-b3363ef701fe","timestamp":"2025-07-31T08:40:45.471Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"a659c19e-40ce-47e3-ad36-7a884d404c95","timestamp":"2025-07-31T08:42:17.459Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"a659c19e-40ce-47e3-ad36-7a884d404c95","timestamp":"2025-07-31T08:42:22.106Z"}
+{"level":"info","message":"Analysis completed","requestId":"a659c19e-40ce-47e3-ad36-7a884d404c95","score":4,"timestamp":"2025-07-31T08:42:22.107Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"a659c19e-40ce-47e3-ad36-7a884d404c95","timestamp":"2025-07-31T08:42:27.478Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"6d96537f-ece3-4e38-90e0-3bec94b3a035","timestamp":"2025-07-31T08:42:52.336Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"6d96537f-ece3-4e38-90e0-3bec94b3a035","timestamp":"2025-07-31T08:42:53.658Z"}
+{"level":"info","message":"Analysis completed","requestId":"6d96537f-ece3-4e38-90e0-3bec94b3a035","score":4,"timestamp":"2025-07-31T08:42:53.659Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"6d96537f-ece3-4e38-90e0-3bec94b3a035","timestamp":"2025-07-31T08:43:02.344Z"}
+{"level":"info","message":"GET /api/health","requestId":"9c9decee-6792-4a0f-8a81-dcbaa2674787","timestamp":"2025-07-31T08:43:04.235Z"}
+{"level":"info","message":"GET /api/health","requestId":"eeb0dda2-0b69-4ee4-968d-da585976cee3","timestamp":"2025-07-31T08:43:04.238Z"}
+{"level":"info","message":"GET /api/health","requestId":"f9b1f2d6-37b3-4155-9ef9-aafddc5640f4","timestamp":"2025-07-31T08:43:09.791Z"}
+{"level":"info","message":"GET /api/health","requestId":"2900e8b6-8d17-496f-92d0-e749ef4a74aa","timestamp":"2025-07-31T08:43:09.795Z"}
+{"level":"info","message":"GET /api/health","requestId":"b028c537-4105-488a-b936-2de51da05fff","timestamp":"2025-07-31T08:43:20.055Z"}
+{"level":"info","message":"GET /api/health","requestId":"eebc3bb2-0207-4d7a-8dc5-d0d18b88d87f","timestamp":"2025-07-31T08:43:20.059Z"}
+{"level":"info","message":"GET /api/health","requestId":"d3876b7e-37e9-491f-809f-8aa187130ac1","timestamp":"2025-07-31T08:43:20.063Z"}
+{"level":"info","message":"GET /api/health","requestId":"d851611e-ee24-404a-a629-8b12331ad55a","timestamp":"2025-07-31T08:52:35.400Z"}
+{"level":"info","message":"GET /api/health","requestId":"f4238d1a-73a5-49e0-9c8a-021f9e107b0d","timestamp":"2025-07-31T08:52:35.484Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"906cada6-e561-449f-956b-7f0b47073dd9","timestamp":"2025-07-31T08:52:38.647Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"906cada6-e561-449f-956b-7f0b47073dd9","timestamp":"2025-07-31T08:52:43.829Z"}
+{"level":"info","message":"Analysis completed","requestId":"906cada6-e561-449f-956b-7f0b47073dd9","score":4,"timestamp":"2025-07-31T08:52:43.830Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"906cada6-e561-449f-956b-7f0b47073dd9","timestamp":"2025-07-31T08:52:48.723Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"f4c5ea92-a3f4-4788-bf53-7826d32eb429","timestamp":"2025-07-31T08:57:38.657Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"f4c5ea92-a3f4-4788-bf53-7826d32eb429","timestamp":"2025-07-31T08:57:43.833Z"}
+{"level":"info","message":"Analysis completed","requestId":"f4c5ea92-a3f4-4788-bf53-7826d32eb429","score":4,"timestamp":"2025-07-31T08:57:43.835Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"f4c5ea92-a3f4-4788-bf53-7826d32eb429","timestamp":"2025-07-31T08:57:48.694Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"6bb3ec9c-a205-441e-adf5-ccfee17302da","timestamp":"2025-07-31T09:01:41.477Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"6bb3ec9c-a205-441e-adf5-ccfee17302da","timestamp":"2025-07-31T09:01:46.723Z"}
+{"level":"info","message":"Analysis completed","requestId":"6bb3ec9c-a205-441e-adf5-ccfee17302da","score":4,"timestamp":"2025-07-31T09:01:46.724Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"6bb3ec9c-a205-441e-adf5-ccfee17302da","timestamp":"2025-07-31T09:01:51.493Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"a9cb8a3c-bee2-4ef9-abbd-efc2aa5610bd","timestamp":"2025-07-31T09:04:22.388Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"a9cb8a3c-bee2-4ef9-abbd-efc2aa5610bd","timestamp":"2025-07-31T09:04:27.761Z"}
+{"level":"info","message":"Analysis completed","requestId":"a9cb8a3c-bee2-4ef9-abbd-efc2aa5610bd","score":4,"timestamp":"2025-07-31T09:04:27.762Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"a9cb8a3c-bee2-4ef9-abbd-efc2aa5610bd","timestamp":"2025-07-31T09:04:32.437Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"d6141b06-9db7-4e9e-a317-fbf0698cc522","timestamp":"2025-07-31T09:06:49.930Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"d6141b06-9db7-4e9e-a317-fbf0698cc522","timestamp":"2025-07-31T09:06:55.373Z"}
+{"level":"info","message":"Analysis completed","requestId":"d6141b06-9db7-4e9e-a317-fbf0698cc522","score":4,"timestamp":"2025-07-31T09:06:55.374Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"d6141b06-9db7-4e9e-a317-fbf0698cc522","timestamp":"2025-07-31T09:06:59.972Z"}
+{"level":"info","message":"GET /api/health","requestId":"b5c6c171-4397-4848-aedb-b59e96f2da63","timestamp":"2025-07-31T09:07:05.148Z"}
+{"level":"info","message":"GET /api/health","requestId":"b709f525-369f-4de4-b72c-01ae41115cf6","timestamp":"2025-07-31T09:07:05.152Z"}
+{"level":"info","message":"GET /api/health","requestId":"098bacae-e149-4c81-b845-9dec1586b95f","timestamp":"2025-07-31T09:10:27.740Z"}
+{"level":"info","message":"GET /api/health","requestId":"f2d91065-baf6-4756-9358-855da0a644f7","timestamp":"2025-07-31T09:10:27.800Z"}
+{"level":"info","message":"GET /api/health","requestId":"35f48517-c951-4d67-8344-88335b86e308","timestamp":"2025-07-31T09:14:10.183Z"}
+{"level":"info","message":"GET /api/health","requestId":"030bb59b-2050-4855-8b7d-5cad7d4d322c","timestamp":"2025-07-31T09:14:10.210Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"3525859e-66d0-4479-bd41-d7ba85606d41","timestamp":"2025-07-31T09:14:13.006Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"3525859e-66d0-4479-bd41-d7ba85606d41","timestamp":"2025-07-31T09:14:18.047Z"}
+{"level":"info","message":"Analysis completed","requestId":"3525859e-66d0-4479-bd41-d7ba85606d41","score":4,"timestamp":"2025-07-31T09:14:18.049Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"3525859e-66d0-4479-bd41-d7ba85606d41","timestamp":"2025-07-31T09:14:23.107Z"}
+{"environment":"development","level":"info","message":"Server started on port 3001","timestamp":"2025-08-03T08:47:31.145Z"}
+{"level":"info","message":"GET /api/health","requestId":"27d804aa-18c5-43c3-8e69-58245f0cc998","timestamp":"2025-08-03T08:55:42.841Z"}
+{"level":"info","message":"GET /api/health","requestId":"4fe1b70e-636c-4767-bb21-0a77e50541d4","timestamp":"2025-08-03T08:55:42.879Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"5e6bd7e4-132f-4ba4-9957-ba12edff4269","timestamp":"2025-08-03T08:55:49.573Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"5e6bd7e4-132f-4ba4-9957-ba12edff4269","timestamp":"2025-08-03T08:55:56.330Z"}
+{"level":"info","message":"Analysis completed","requestId":"5e6bd7e4-132f-4ba4-9957-ba12edff4269","score":4,"timestamp":"2025-08-03T08:55:56.332Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"5e6bd7e4-132f-4ba4-9957-ba12edff4269","timestamp":"2025-08-03T08:55:59.880Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"258d2f54-8838-4c09-ba17-8fc19ef441b6","timestamp":"2025-08-03T08:59:07.036Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"258d2f54-8838-4c09-ba17-8fc19ef441b6","timestamp":"2025-08-03T08:59:12.203Z"}
+{"level":"info","message":"Analysis completed","requestId":"258d2f54-8838-4c09-ba17-8fc19ef441b6","score":4,"timestamp":"2025-08-03T08:59:12.204Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"258d2f54-8838-4c09-ba17-8fc19ef441b6","timestamp":"2025-08-03T08:59:17.041Z"}
+{"level":"info","message":"SIGINT received - shutting down","timestamp":"2025-08-03T09:00:17.967Z"}
+{"environment":"development","level":"info","message":"Server started on port 3001","timestamp":"2025-08-03T09:00:40.769Z"}
+{"level":"info","message":"GET /api/health","requestId":"72d80590-dcbc-4b82-84f4-23c2eea8bcb1","timestamp":"2025-08-03T09:00:49.994Z"}
+{"level":"info","message":"GET /api/health","requestId":"adde166e-f16c-4caa-bb68-d855933ce8de","timestamp":"2025-08-03T09:00:50.002Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"ed64e71c-f9b4-49c4-80fb-2f301546f77a","timestamp":"2025-08-03T09:00:52.935Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"ed64e71c-f9b4-49c4-80fb-2f301546f77a","timestamp":"2025-08-03T09:00:59.237Z"}
+{"level":"info","message":"Analysis completed","requestId":"ed64e71c-f9b4-49c4-80fb-2f301546f77a","score":4,"timestamp":"2025-08-03T09:00:59.239Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"ed64e71c-f9b4-49c4-80fb-2f301546f77a","timestamp":"2025-08-03T09:01:03.195Z"}
+{"level":"info","message":"GET /api/health","requestId":"445e5bfe-5491-434b-928b-7e1ab4bd3115","timestamp":"2025-08-03T09:01:11.763Z"}
+{"level":"info","message":"GET /api/health","requestId":"eaabcd33-eba3-43b4-b8b6-8b400c449ff5","timestamp":"2025-08-03T09:01:11.769Z"}
+{"level":"info","message":"GET /api/health","requestId":"1042ddbd-550f-42dd-ba19-c4532c340c2c","timestamp":"2025-08-03T09:07:39.865Z"}
+{"level":"info","message":"GET /api/health","requestId":"b6ac7e85-5435-4b0e-8f2d-ac271b67375e","timestamp":"2025-08-03T09:07:39.894Z"}
+{"level":"info","message":"GET /api/health","requestId":"a13fc278-3c8f-451f-b3c5-82564684fd23","timestamp":"2025-08-03T09:14:22.436Z"}
+{"level":"info","message":"GET /api/health","requestId":"617fc419-a891-4bf8-88b2-40d9daab9e42","timestamp":"2025-08-03T09:14:22.446Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"b0255627-477a-4f5e-b5f7-c03aa4de9b39","timestamp":"2025-08-03T09:23:17.612Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"b0255627-477a-4f5e-b5f7-c03aa4de9b39","timestamp":"2025-08-03T09:23:23.114Z"}
+{"level":"info","message":"Analysis completed","requestId":"b0255627-477a-4f5e-b5f7-c03aa4de9b39","score":4,"timestamp":"2025-08-03T09:23:23.116Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"b0255627-477a-4f5e-b5f7-c03aa4de9b39","timestamp":"2025-08-03T09:23:27.693Z"}
+{"level":"info","message":"GET /api/health","requestId":"6651eb34-e616-4055-ac6d-8e131a299d57","timestamp":"2025-08-03T09:25:51.091Z"}
+{"level":"info","message":"GET /api/health","requestId":"e8c16f95-cc77-4c78-a05a-4a0711bbd2c9","timestamp":"2025-08-03T09:25:51.096Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"54fef2bd-a703-4e6c-a891-74ef01edbf99","timestamp":"2025-08-03T09:27:47.459Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"54fef2bd-a703-4e6c-a891-74ef01edbf99","timestamp":"2025-08-03T09:27:52.624Z"}
+{"level":"info","message":"Analysis completed","requestId":"54fef2bd-a703-4e6c-a891-74ef01edbf99","score":4,"timestamp":"2025-08-03T09:27:52.625Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"54fef2bd-a703-4e6c-a891-74ef01edbf99","timestamp":"2025-08-03T09:27:57.473Z"}
+{"level":"info","message":"GET /api/health","requestId":"8c2b118c-46b4-41c2-8857-2a158cfa9378","timestamp":"2025-08-03T09:32:14.559Z"}
+{"level":"info","message":"GET /api/health","requestId":"6bfc3df0-139e-4d63-816a-8165d77cbf14","timestamp":"2025-08-03T09:32:14.609Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"8abd3c63-64a5-4c29-996b-4a67b0f4917d","timestamp":"2025-08-03T09:32:22.315Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"8abd3c63-64a5-4c29-996b-4a67b0f4917d","timestamp":"2025-08-03T09:32:28.113Z"}
+{"level":"info","message":"Analysis completed","requestId":"8abd3c63-64a5-4c29-996b-4a67b0f4917d","score":4,"timestamp":"2025-08-03T09:32:28.114Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"8abd3c63-64a5-4c29-996b-4a67b0f4917d","timestamp":"2025-08-03T09:32:32.574Z"}
+{"level":"info","message":"GET /api/health","requestId":"9168d6a3-acc4-447a-ac60-4b6388205c96","timestamp":"2025-08-03T09:34:34.549Z"}
+{"level":"info","message":"GET /api/health","requestId":"fb3ea128-f8b3-4c91-884f-d012a5268d11","timestamp":"2025-08-03T09:34:34.575Z"}
+{"level":"info","message":"GET /api/health","requestId":"6d896f0d-ed1f-49bc-a8e3-a5c8e4fd14ff","timestamp":"2025-08-03T09:34:38.648Z"}
+{"level":"info","message":"GET /api/health","requestId":"e6e5a366-f637-47fc-882b-6cb92b58df6c","timestamp":"2025-08-03T09:34:38.653Z"}
+{"level":"info","message":"GET /api/health","requestId":"a013bd30-98e6-4b13-bad3-79cc7503a10e","timestamp":"2025-08-03T09:34:38.657Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"f88a8b70-7d88-45c3-b5bd-c0e689a7dfd9","timestamp":"2025-08-03T09:34:42.806Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"f88a8b70-7d88-45c3-b5bd-c0e689a7dfd9","timestamp":"2025-08-03T09:34:47.943Z"}
+{"level":"info","message":"Analysis completed","requestId":"f88a8b70-7d88-45c3-b5bd-c0e689a7dfd9","score":4,"timestamp":"2025-08-03T09:34:47.945Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"f88a8b70-7d88-45c3-b5bd-c0e689a7dfd9","timestamp":"2025-08-03T09:34:52.825Z"}
+{"level":"info","message":"GET /api/health","requestId":"4bc02f5f-6400-4eb6-93b3-482b2ce19e17","timestamp":"2025-08-03T09:38:23.386Z"}
+{"level":"info","message":"GET /api/health","requestId":"73902ef8-8b06-425c-9715-24e56ef02e1e","timestamp":"2025-08-03T09:38:23.566Z"}
+{"level":"info","message":"GET /api/health","requestId":"3ca01974-7eed-4a0c-bfdb-139eb1b7d24b","timestamp":"2025-08-03T09:38:42.016Z"}
+{"level":"info","message":"GET /api/health","requestId":"84247199-e453-4530-896d-10e3392600ae","timestamp":"2025-08-03T09:38:42.022Z"}
+{"level":"info","message":"GET /api/health","requestId":"5cb90cc8-d88c-4154-acc9-b109c008db0f","timestamp":"2025-08-03T09:38:48.179Z"}
+{"level":"info","message":"GET /api/health","requestId":"a908252f-4d82-4f8a-8518-706ec9dc5f8f","timestamp":"2025-08-03T09:38:48.184Z"}
+{"level":"info","message":"GET /api/health","requestId":"2aa847aa-2c80-46a5-908d-ba5059f74b65","timestamp":"2025-08-03T09:38:53.790Z"}
+{"level":"info","message":"GET /api/health","requestId":"f4274993-5e55-46c8-9d48-90e9ce7f4794","timestamp":"2025-08-03T09:38:53.794Z"}
+{"level":"info","message":"GET /api/health","requestId":"82d85c4c-52d9-410b-bc58-a4eb59bef264","timestamp":"2025-08-03T09:38:53.799Z"}
+{"level":"info","message":"GET /api/health","requestId":"25e73ce3-d431-41c5-b2a1-4d442362cae6","timestamp":"2025-08-03T09:39:03.281Z"}
+{"level":"info","message":"GET /api/health","requestId":"a1868325-7410-4b58-8c96-7478ee7f21be","timestamp":"2025-08-03T09:39:03.286Z"}
+{"level":"info","message":"GET /api/health","requestId":"cf3a8f6c-fcf0-4548-b399-5540633fefcb","timestamp":"2025-08-03T09:39:03.293Z"}
+{"level":"info","message":"GET /api/health","requestId":"af9a4f8f-b3fe-4e13-b1a7-4eb16a82b526","timestamp":"2025-08-03T09:42:28.640Z"}
+{"level":"info","message":"GET /api/health","requestId":"10006ac9-8cc0-408a-9771-49de2ab50121","timestamp":"2025-08-03T09:42:28.732Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"85f24013-ce66-4c1d-a416-d9bcf2c89bcb","timestamp":"2025-08-03T09:43:09.846Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"85f24013-ce66-4c1d-a416-d9bcf2c89bcb","timestamp":"2025-08-03T09:43:15.180Z"}
+{"level":"info","message":"Analysis completed","requestId":"85f24013-ce66-4c1d-a416-d9bcf2c89bcb","score":4,"timestamp":"2025-08-03T09:43:15.183Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"85f24013-ce66-4c1d-a416-d9bcf2c89bcb","timestamp":"2025-08-03T09:43:19.866Z"}
+{"level":"info","message":"GET /api/health","requestId":"34a7cd2f-80cd-47cf-adce-7f9ae9569889","timestamp":"2025-08-03T09:45:57.628Z"}
+{"level":"info","message":"GET /api/health","requestId":"cdbfc083-4b3f-4fb5-802f-3ac5795df143","timestamp":"2025-08-03T09:45:57.654Z"}
+{"level":"info","message":"GET /api/health","requestId":"62eeeb92-b377-46fa-bf36-f99de33a114d","timestamp":"2025-08-03T09:45:59.942Z"}
+{"level":"info","message":"GET /api/health","requestId":"256d1155-aca5-4e49-8dc4-ffd43de9f10d","timestamp":"2025-08-03T09:45:59.946Z"}
+{"level":"info","message":"GET /api/health","requestId":"99a9b6e2-533f-4335-8afb-f4e6ae0710c9","timestamp":"2025-08-03T09:51:16.441Z"}
+{"level":"info","message":"GET /api/health","requestId":"fd70b469-caf0-4f78-8e38-ba0d60ab15d9","timestamp":"2025-08-03T09:51:16.454Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"5f05606c-03b5-473a-b2cd-fe158bdede6b","timestamp":"2025-08-03T09:51:31.125Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"5f05606c-03b5-473a-b2cd-fe158bdede6b","timestamp":"2025-08-03T09:51:36.323Z"}
+{"level":"info","message":"Analysis completed","requestId":"5f05606c-03b5-473a-b2cd-fe158bdede6b","score":4,"timestamp":"2025-08-03T09:51:36.324Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"5f05606c-03b5-473a-b2cd-fe158bdede6b","timestamp":"2025-08-03T09:51:41.147Z"}
+{"level":"info","message":"GET /api/health","requestId":"1c93fd20-d3d3-4a8a-9341-c6a7a7823226","timestamp":"2025-08-03T09:54:18.005Z"}
+{"level":"info","message":"GET /api/health","requestId":"8dd51701-3f4a-461f-8b60-8851e09f817e","timestamp":"2025-08-03T09:54:18.025Z"}
+{"level":"info","message":"GET /api/health","requestId":"fa2c93c5-1a13-461a-a889-12d1549cadab","timestamp":"2025-08-03T09:56:19.145Z"}
+{"level":"info","message":"GET /api/health","requestId":"2c7e1d74-a18c-47bd-9a7b-53b5be57aca4","timestamp":"2025-08-03T09:56:19.161Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"af6dc8b9-0c28-4b6a-864c-185840a364f6","timestamp":"2025-08-03T10:03:56.346Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"af6dc8b9-0c28-4b6a-864c-185840a364f6","timestamp":"2025-08-03T10:04:01.612Z"}
+{"level":"info","message":"Analysis completed","requestId":"af6dc8b9-0c28-4b6a-864c-185840a364f6","score":4,"timestamp":"2025-08-03T10:04:01.618Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"af6dc8b9-0c28-4b6a-864c-185840a364f6","timestamp":"2025-08-03T10:04:06.392Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"b97cd114-9b9d-4645-8229-d7354ada22f2","timestamp":"2025-08-03T10:07:35.552Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"b97cd114-9b9d-4645-8229-d7354ada22f2","timestamp":"2025-08-03T10:07:42.034Z"}
+{"level":"info","message":"Analysis completed","requestId":"b97cd114-9b9d-4645-8229-d7354ada22f2","score":4,"timestamp":"2025-08-03T10:07:42.040Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"b97cd114-9b9d-4645-8229-d7354ada22f2","timestamp":"2025-08-03T10:07:45.663Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"c531d8dc-130a-4aa6-bd26-735c5881d493","timestamp":"2025-08-03T10:07:48.508Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"c531d8dc-130a-4aa6-bd26-735c5881d493","timestamp":"2025-08-03T10:07:49.888Z"}
+{"level":"info","message":"Analysis completed","requestId":"c531d8dc-130a-4aa6-bd26-735c5881d493","score":4,"timestamp":"2025-08-03T10:07:49.890Z","verdict":"likely credible"}
+{"level":"info","message":"GET /api/health","requestId":"d997095e-ea77-4384-a99b-849ecb2ba1b0","timestamp":"2025-08-03T10:07:55.888Z"}
+{"level":"info","message":"GET /api/health","requestId":"c94e24f4-9b48-4327-bb2d-3756bdd79e1d","timestamp":"2025-08-03T10:07:55.899Z"}
+{"level":"warn","message":"Analysis timeout","requestId":"c531d8dc-130a-4aa6-bd26-735c5881d493","timestamp":"2025-08-03T10:07:58.517Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"62f26329-a4b8-43ad-96ce-a764f315e5ab","timestamp":"2025-08-03T10:10:07.818Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"62f26329-a4b8-43ad-96ce-a764f315e5ab","timestamp":"2025-08-03T10:10:14.586Z"}
+{"level":"info","message":"Analysis completed","requestId":"62f26329-a4b8-43ad-96ce-a764f315e5ab","score":4,"timestamp":"2025-08-03T10:10:14.612Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"62f26329-a4b8-43ad-96ce-a764f315e5ab","timestamp":"2025-08-03T10:10:18.222Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"dc343e91-8380-4bb6-83db-08db4efceaac","timestamp":"2025-08-03T10:13:09.000Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"dc343e91-8380-4bb6-83db-08db4efceaac","timestamp":"2025-08-03T10:13:14.347Z"}
+{"level":"info","message":"Analysis completed","requestId":"dc343e91-8380-4bb6-83db-08db4efceaac","score":4,"timestamp":"2025-08-03T10:13:14.355Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"dc343e91-8380-4bb6-83db-08db4efceaac","timestamp":"2025-08-03T10:13:19.169Z"}
+{"level":"info","message":"GET /api/health","requestId":"3f9918c2-7f5c-4fa7-92af-81af12e61135","timestamp":"2025-08-03T10:14:54.985Z"}
+{"level":"info","message":"GET /api/health","requestId":"872fc1ac-5027-4b94-8be9-0d6db2259a99","timestamp":"2025-08-03T10:14:55.005Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"de392e0d-eb81-404e-9b9c-eeb47eb166bb","timestamp":"2025-08-03T10:15:27.616Z"}
+{"level":"warn","message":"Analysis timeout","requestId":"de392e0d-eb81-404e-9b9c-eeb47eb166bb","timestamp":"2025-08-03T10:15:38.021Z"}
+{"error":"Analysis timeout","level":"error","message":"Analysis failed","requestId":"de392e0d-eb81-404e-9b9c-eeb47eb166bb","stack":"Error: Analysis timeout\n    at Timeout._onTimeout (C:\\Users\\umindu\\Desktop\\Fake News Detector\\backend\\server.js:183:16)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)","timestamp":"2025-08-03T10:15:38.030Z"}
+{"level":"info","message":"Running fallback analysis","timestamp":"2025-08-03T10:15:38.080Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"de392e0d-eb81-404e-9b9c-eeb47eb166bb","timestamp":"2025-08-03T10:15:38.115Z"}
+{"level":"info","message":"SIGINT received - shutting down","timestamp":"2025-08-03T10:15:56.223Z"}
+{"environment":"development","level":"info","message":"Server started on port 3001","timestamp":"2025-08-03T10:16:04.921Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"756680f8-4d2a-488a-9ada-aec88d9cca1d","timestamp":"2025-08-03T10:16:11.095Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"756680f8-4d2a-488a-9ada-aec88d9cca1d","timestamp":"2025-08-03T10:16:19.377Z"}
+{"level":"info","message":"Analysis completed","requestId":"756680f8-4d2a-488a-9ada-aec88d9cca1d","score":4,"timestamp":"2025-08-03T10:16:19.379Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"756680f8-4d2a-488a-9ada-aec88d9cca1d","timestamp":"2025-08-03T10:16:22.197Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"f892d392-223c-4ec0-a299-ffcf2c176102","timestamp":"2025-08-03T10:20:03.689Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"f892d392-223c-4ec0-a299-ffcf2c176102","timestamp":"2025-08-03T10:20:09.995Z"}
+{"level":"info","message":"Analysis completed","requestId":"f892d392-223c-4ec0-a299-ffcf2c176102","score":4,"timestamp":"2025-08-03T10:20:09.997Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"f892d392-223c-4ec0-a299-ffcf2c176102","timestamp":"2025-08-03T10:20:13.700Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"18f60e30-1732-4e7f-9b7b-bb7400aa3d38","timestamp":"2025-08-03T10:24:15.068Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"18f60e30-1732-4e7f-9b7b-bb7400aa3d38","timestamp":"2025-08-03T10:24:21.985Z"}
+{"level":"info","message":"Analysis completed","requestId":"18f60e30-1732-4e7f-9b7b-bb7400aa3d38","score":4,"timestamp":"2025-08-03T10:24:21.997Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"18f60e30-1732-4e7f-9b7b-bb7400aa3d38","timestamp":"2025-08-03T10:24:25.136Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"a0f55f93-b065-4b0a-af28-4c3d5ea9be3c","timestamp":"2025-08-03T10:27:11.554Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"a0f55f93-b065-4b0a-af28-4c3d5ea9be3c","timestamp":"2025-08-03T10:27:16.551Z"}
+{"level":"info","message":"Analysis completed","requestId":"a0f55f93-b065-4b0a-af28-4c3d5ea9be3c","score":4,"timestamp":"2025-08-03T10:27:16.552Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"a0f55f93-b065-4b0a-af28-4c3d5ea9be3c","timestamp":"2025-08-03T10:27:21.561Z"}
+{"environment":"development","level":"info","message":"Server started on port 3001","timestamp":"2025-08-03T10:32:27.281Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"fb6124c1-aec5-4b30-bb29-1d0fc7acb983","timestamp":"2025-08-03T10:32:58.853Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"fb6124c1-aec5-4b30-bb29-1d0fc7acb983","timestamp":"2025-08-03T10:33:06.201Z"}
+{"level":"info","message":"Analysis completed","requestId":"fb6124c1-aec5-4b30-bb29-1d0fc7acb983","score":4,"timestamp":"2025-08-03T10:33:06.202Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"fb6124c1-aec5-4b30-bb29-1d0fc7acb983","timestamp":"2025-08-03T10:33:09.678Z"}
+{"environment":"development","level":"info","message":"Server started on port 3001","timestamp":"2025-08-04T02:25:14.147Z"}
+{"level":"info","message":"GET /api/health","requestId":"799c8685-ef3d-47fc-99a4-e4482b52e433","timestamp":"2025-08-04T02:26:01.253Z"}
+{"level":"info","message":"GET /api/health","requestId":"35d87bba-ced1-40c3-903f-2276757c5f12","timestamp":"2025-08-04T02:26:01.279Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"6082e9bf-9c84-4ad1-a0ad-8a4faafcd70a","timestamp":"2025-08-04T02:26:05.947Z"}
+{"level":"warn","message":"Analysis timeout","requestId":"6082e9bf-9c84-4ad1-a0ad-8a4faafcd70a","timestamp":"2025-08-04T02:26:16.206Z"}
+{"error":"Analysis timeout","level":"error","message":"Analysis failed","requestId":"6082e9bf-9c84-4ad1-a0ad-8a4faafcd70a","stack":"Error: Analysis timeout\n    at Timeout._onTimeout (C:\\Users\\umindu\\Desktop\\Fake News Detector\\backend\\server.js:183:16)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)","timestamp":"2025-08-04T02:26:16.212Z"}
+{"level":"info","message":"Running fallback analysis","timestamp":"2025-08-04T02:26:16.215Z"}
+{"environment":"development","level":"info","message":"Server started on port 3001","timestamp":"2025-08-04T02:43:34.308Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"471da2f8-66b0-4040-a614-77e295eb7f18","timestamp":"2025-08-04T02:43:40.643Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"471da2f8-66b0-4040-a614-77e295eb7f18","timestamp":"2025-08-04T02:43:47.454Z"}
+{"level":"info","message":"Analysis completed","requestId":"471da2f8-66b0-4040-a614-77e295eb7f18","score":4,"timestamp":"2025-08-04T02:43:47.458Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"471da2f8-66b0-4040-a614-77e295eb7f18","timestamp":"2025-08-04T02:43:51.006Z"}
+{"environment":"development","level":"info","message":"Server started on port 3001","timestamp":"2025-08-04T02:48:23.467Z"}

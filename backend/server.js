@@ -4,7 +4,25 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const helmet = require('helmet');
 const rateLimit = require('express-rate-limit');
+const { v4: uuidv4 } = require('uuid');
+const winston = require('winston');
 const { HfInference } = require('@huggingface/inference');
+
+// Configure logger
+const logger = winston.createLogger({
+  level: 'info',
+  format: winston.format.combine(
+    winston.format.timestamp(),
+    winston.format.json()
+  ),
+  transports: [
+    new winston.transports.File({ filename: 'error.log', level: 'error' }),
+    new winston.transports.File({ filename: 'combined.log' }),
+    new winston.transports.Console({
+      format: winston.format.simple()
+    })
+  ]
+});
 
 // Import rule detectors
 const clickbaitDetector = require('./rules/clickbait');
@@ -17,15 +35,19 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 const hf = new HfInference(process.env.HF_API_TOKEN);
 
+// Severity order for sorting
+const severityOrder = { critical: 3, high: 2, medium: 1, low: 0 };
+
 // Enhanced rate limiting
 const apiLimiter = rateLimit({
-  windowMs: 15 * 60 * 1000, // 15 minutes
-  max: process.env.NODE_ENV === 'production' ? 50 : 100, // Lower limit in prod
+  windowMs: 15 * 60 * 1000,
+  max: process.env.NODE_ENV === 'production' ? 50 : 100,
   message: {
     error: 'Too many requests',
     message: 'Please try again after 15 minutes'
   },
-  validate: { trustProxy: false }
+  validate: { trustProxy: false },
+  keyGenerator: (req) => req.id
 });
 
 // Security middleware
@@ -50,11 +72,12 @@ const corsOptions = {
 };
 
 app.use(cors(corsOptions));
-app.use(bodyParser.json({ limit: '500kb' })); // Prevent large payloads
+app.use(bodyParser.json({ limit: '500kb' }));
 
-// Request logging middleware
+// Request ID and logging middleware
 app.use((req, res, next) => {
-  console.log(`${new Date().toISOString()} - ${req.method} ${req.path}`);
+  req.id = uuidv4();
+  logger.info(`${req.method} ${req.path}`, { requestId: req.id });
   next();
 });
 
@@ -64,7 +87,8 @@ app.get('/api/health', (req, res) => {
     status: 'healthy',
     timestamp: new Date(),
     version: process.env.npm_package_version,
-    environment: process.env.NODE_ENV
+    environment: process.env.NODE_ENV,
+    requestId: req.id
   });
 });
 
@@ -81,41 +105,83 @@ app.get('/api/docs', (req, res) => {
         },
         rateLimit: '100 requests/15 minutes'
       }
-    }
+    },
+    requestId: req.id
   });
 });
+
+// Text sanitization helper
+const sanitizeInput = (text) => {
+  return text.trim()
+    .replace(/<[^>]*>?/gm, '') // Remove HTML tags
+    .replace(/\s{2,}/g, ' '); // Collapse multiple spaces
+};
 
 // Main analysis endpoint
 app.post('/api/analyze', apiLimiter, async (req, res) => {
   const { text, metadata = {} } = req.body;
   
-  // Input validation
+  // Input validation and sanitization
   if (!text || typeof text !== 'string') {
+    logger.warn('Invalid input type', { requestId: req.id });
     return res.status(400).json({ 
       error: 'Invalid input',
-      details: 'Text content must be a non-empty string'
+      details: 'Text content must be a non-empty string',
+      requestId: req.id
     });
   }
 
-  if (text.length > 5000) {
+  // Validate metadata if provided
+  if (metadata && typeof metadata !== 'object') {
+    logger.warn('Invalid metadata type', { requestId: req.id });
+    return res.status(400).json({ 
+      error: 'Invalid metadata',
+      details: 'Metadata must be an object',
+      requestId: req.id
+    });
+  }
+
+  const sanitizedText = sanitizeInput(text);
+  if (sanitizedText.length === 0) {
+    logger.warn('Empty text after sanitization', { requestId: req.id });
+    return res.status(400).json({ 
+      error: 'Invalid input', 
+      details: 'Text contains no valid content after sanitization',
+      requestId: req.id
+    });
+  }
+
+  if (sanitizedText.length > 5000) {
+    logger.warn('Payload too large', { requestId: req.id, length: sanitizedText.length });
     return res.status(413).json({
       error: 'Payload too large',
-      details: 'Text must be under 5000 characters'
+      details: 'Text must be under 5000 characters',
+      requestId: req.id
     });
   }
 
   try {
-    // Parallel detection execution with timeout
+    // Parallel detection with individual timeouts
     const analysisPromise = Promise.all([
-      clickbaitDetector.detect(text),
-      biasDetector.detect(text),
-      credibilityDetector.detect(text, metadata),
-      mlDetector.detect(text)
+      clickbaitDetector.detect(sanitizedText),
+      biasDetector.detect(sanitizedText),
+      credibilityDetector.detect(sanitizedText, metadata),
+      mlDetector.detect(sanitizedText).catch(err => {
+        logger.error('ML detection failed', { error: err.message, requestId: req.id });
+        return {
+          rule: 'ml',
+          score: 0,
+          issues: [],
+          error: 'ML service unavailable'
+        };
+      })
     ]);
 
-    // Set 10-second timeout for analysis
     const timeoutPromise = new Promise((_, reject) => 
-      setTimeout(() => reject(new Error('Analysis timeout')), 10000)
+      setTimeout(() => {
+        logger.warn('Analysis timeout', { requestId: req.id });
+        reject(new Error('Analysis timeout'));
+      }, 10000)
     );
 
     const [clickbait, bias, credibility, ml] = await Promise.race([
@@ -123,20 +189,12 @@ app.post('/api/analyze', apiLimiter, async (req, res) => {
       timeoutPromise
     ]);
 
-    // Calculate composite score with weights
-    const compositeScore = calculateCompositeScore(
-      clickbait.score, 
-      bias.score, 
-      credibility.score, 
-      ml.score
-    );
-
-    // Compile and sort issues by severity
-    const allIssues = compileIssues(
-      clickbait.issues,
-      bias.issues,
-      credibility.issues,
-      ml.issues
+    // Calculate composite score
+    const compositeScore = Math.min(100,
+      (clickbait.score * 0.3) +
+      (bias.score * 0.25) +
+      (credibility.score * 0.25) +
+      (ml.score * 0.2)
     );
 
     // Prepare response
@@ -144,54 +202,50 @@ app.post('/api/analyze', apiLimiter, async (req, res) => {
       verdict: getVerdict(compositeScore),
       score: Math.round(compositeScore),
       details: { clickbait, bias, credibility, ml },
-      issues: allIssues,
-      suggestedActions: getSuggestedActions(allIssues),
-      modelUsed: process.env.HF_MODEL || 'facebook/bart-large-mnli',
-      analyzedAt: new Date().toISOString()
+      issues: [...clickbait.issues, ...bias.issues, ...credibility.issues, ...ml.issues]
+        .filter(issue => issue) // Filter out any undefined issues
+        .sort((a, b) => severityOrder[b.severity] - severityOrder[a.severity]),
+      suggestedActions: getSuggestedActions([...clickbait.issues, ...bias.issues, ...credibility.issues, ...ml.issues]),
+      modelUsed: ml.modelUsed || process.env.HF_MODEL || 'facebook/bart-large-mnli',
+      analyzedAt: new Date().toISOString(),
+      requestId: req.id
     };
 
-    // Cache control headers
+    logger.info('Analysis completed', { 
+      requestId: req.id, 
+      score: response.score,
+      verdict: response.verdict
+    });
+
     res.set('Cache-Control', 'public, max-age=300');
     res.json(response);
 
   } catch (error) {
-    console.error(`Analysis Error: ${error.message}`);
-    
-    const statusCode = error.message.includes('timeout') ? 504 : 500;
-    res.status(statusCode).json({
-      error: 'Analysis failed',
-      details: process.env.NODE_ENV === 'development' ? error.message : undefined,
-      fallbackAnalysis: statusCode === 504 ? await runFallbackAnalysis(text) : null
+    logger.error('Analysis failed', { 
+      error: error.message, 
+      stack: error.stack,
+      requestId: req.id
     });
+
+    if (error.message.includes('timeout')) {
+      const fallback = await runFallbackAnalysis(sanitizedText);
+      res.status(504).json({
+        error: 'Analysis timeout',
+        details: 'Using fallback analysis without ML',
+        fallbackAnalysis: fallback,
+        requestId: req.id
+      });
+    } else {
+      res.status(500).json({
+        error: 'Analysis failed',
+        details: process.env.NODE_ENV === 'development' ? error.message : undefined,
+        requestId: req.id
+      });
+    }
   }
 });
 
 // Helper functions
-function calculateCompositeScore(clickbait, bias, credibility, ml) {
-  const weights = {
-    clickbait: 0.3,
-    bias: 0.25,
-    credibility: 0.25,
-    ml: 0.2
-  };
-  
-  return Math.min(100,
-    (clickbait * weights.clickbait) +
-    (bias * weights.bias) +
-    (credibility * weights.credibility) +
-    (ml * weights.ml)
-  );
-}
-
-function compileIssues(...issueArrays) {
-  return issueArrays
-    .flat()
-    .sort((a, b) => {
-      const severityOrder = { critical: 3, high: 2, medium: 1, low: 0 };
-      return severityOrder[b.severity] - severityOrder[a.severity];
-    });
-}
-
 function getVerdict(score) {
   if (score >= 75) return 'highly suspicious';
   if (score >= 50) return 'suspicious';
@@ -202,19 +256,19 @@ function getVerdict(score) {
 function getSuggestedActions(issues) {
   const actions = new Set();
   
-  if (issues.some(i => i.severity === 'critical')) {
+  if (issues.some(i => i?.severity === 'critical')) {
     actions.add('Verify with fact-checking websites like Snopes or FactCheck.org');
   }
   
-  if (issues.some(i => i.type.includes('clickbait'))) {
+  if (issues.some(i => i?.type?.includes('clickbait'))) {
     actions.add('Be cautious of emotionally charged or exaggerated language');
   }
   
-  if (issues.some(i => i.type.includes('bias'))) {
+  if (issues.some(i => i?.type?.includes('bias'))) {
     actions.add('Compare with neutral reporting from sources like Reuters or AP News');
   }
   
-  if (issues.some(i => i.type.includes('ai_generated'))) {
+  if (issues.some(i => i?.type?.includes('ai_generated'))) {
     actions.add('This content may be AI-generated - check original sources');
   }
   
@@ -222,60 +276,63 @@ function getSuggestedActions(issues) {
 }
 
 async function runFallbackAnalysis(text) {
-  console.log('Running fallback analysis');
   try {
-    const clickbait = await clickbaitDetector.detect(text);
-    const bias = await biasDetector.detect(text);
+    logger.info('Running fallback analysis');
+    const [clickbait, bias] = await Promise.all([
+      clickbaitDetector.detect(text),
+      biasDetector.detect(text)
+    ]);
+    
     return {
       verdict: getVerdict((clickbait.score + bias.score) / 2),
       score: Math.round((clickbait.score + bias.score) / 2),
-      issues: [...clickbait.issues, ...bias.issues],
+      issues: [...(clickbait.issues || []), ...(bias.issues || [])],
       note: 'Fallback analysis (ML service unavailable)'
     };
-  } catch (fallbackError) {
-    console.error('Fallback analysis failed:', fallbackError);
-    return null;
+  } catch (error) {
+    logger.error('Fallback analysis failed', { error: error.message });
+    return {
+      verdict: 'analysis failed',
+      score: 0,
+      issues: [],
+      note: 'Could not perform any analysis'
+    };
   }
 }
 
-// Error handling middleware
-app.use((err, req, res, next) => {
-  console.error(`Unhandled Error: ${err.stack}`);
-  res.status(500).json({
-    error: 'Internal server error',
-    requestId: req.id
-  });
-});
-
 // Start server
 const server = app.listen(PORT, () => {
-  console.log(`
-  ███████╗ █████╗ ██╗  ██╗███████╗    ███╗   ██╗███████╗██╗    ██╗███████╗
-  ██╔════╝██╔══██╗██║ ██╔╝██╔════╝    ████╗  ██║██╔════╝██║    ██║██╔════╝
-  █████╗  ███████║█████╔╝ █████╗      ██╔██╗ ██║█████╗  ██║ █╗ ██║███████╗
-  ██╔══╝  ██╔══██║██╔═██╗ ██╔══╝      ██║╚██╗██║██╔══╝  ██║███╗██║╚════██║
-  ██║     ██║  ██║██║  ██╗███████╗    ██║ ╚████║███████╗╚███╔███╔╝███████║
-  ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝    ╚═╝  ╚═══╝╚══════╝ ╚══╝╚══╝ ╚══════╝
-  `);
-  console.log(`Server running in ${process.env.NODE_ENV || 'development'} mode`);
-  console.log(`API Docs: http://localhost:${PORT}/api/docs`);
+  logger.info(`Server started on port ${PORT}`, {
+    environment: process.env.NODE_ENV || 'development'
+  });
 });
 
 // Graceful shutdown
-process.on('SIGTERM', () => {
-  console.log('SIGTERM received. Shutting down gracefully...');
+const shutdown = (signal) => {
+  logger.info(`${signal} received - shutting down`);
   server.close(() => {
-    console.log('Server terminated');
+    logger.info('Server terminated');
     process.exit(0);
   });
+
+  // Force close after 5 seconds
+  setTimeout(() => {
+    logger.error('Forcing shutdown after timeout');
+    process.exit(1);
+  }, 5000);
+};
+
+['SIGTERM', 'SIGINT'].forEach(signal => {
+  process.on(signal, () => shutdown(signal));
 });
 
-process.on('SIGINT', () => {
-  console.log('SIGINT received. Shutting down gracefully...');
-  server.close(() => {
-    console.log('Server terminated');
-    process.exit(0);
-  });
+process.on('unhandledRejection', (err) => {
+  logger.error('Unhandled rejection', { error: err.message, stack: err.stack });
 });
 
-module.exports = server; // For testing
+process.on('uncaughtException', (err) => {
+  logger.error('Uncaught exception', { error: err.message, stack: err.stack });
+  shutdown('uncaughtException');
+});
+
+module.exports = server;

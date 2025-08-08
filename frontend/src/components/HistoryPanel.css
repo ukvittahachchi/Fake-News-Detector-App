@@ -1,0 +1,139 @@
+/* History Panel Styles */
+.history-panel-container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  z-index: 10;
+  border: 1px solid #e5e7eb;
+}
+
+@media (min-width: 768px) {
+  .history-panel-container {
+    width: 24rem; /* 384px */
+  }
+}
+
+.history-panel-header {
+  padding: 1rem;
+  border-bottom: 1px solid #e5e7eb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.history-panel-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.history-panel-close-btn {
+  padding: 0.25rem;
+  border-radius: 9999px;
+}
+
+.history-panel-close-btn:hover {
+  background-color: #f3f4f6;
+}
+
+.history-panel-content {
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.history-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid #e5e7eb;
+}
+
+.history-item {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.history-item-btn {
+  width: 100%;
+  text-align: left;
+  padding: 1rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.history-item-btn:hover {
+  background-color: #f9fafb;
+}
+
+.history-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.verdict-badge {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.verdict-high {
+  background-color: #fee2e2;
+  color: #b91c1c;
+}
+
+.verdict-medium {
+  background-color: #ffedd5;
+  color: #9a3412;
+}
+
+.verdict-low {
+  background-color: #dcfce7;
+  color: #166534;
+}
+
+.history-date {
+  font-size: 0.75rem;
+  color: #6b7280;
+}
+
+.history-text-preview {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  color: #4b5563;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.empty-history-message {
+  padding: 1rem;
+  text-align: center;
+  color: #6b7280;
+}
+
+.history-panel-footer {
+  padding: 1rem;
+  border-top: 1px solid #e5e7eb;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.clear-history-btn {
+  font-size: 0.875rem;
+  color: #dc2626;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.clear-history-btn:hover {
+  color: #991b1b;
+}
