@@ -517,3 +517,110 @@
 {"level":"info","message":"Analysis completed","requestId":"471da2f8-66b0-4040-a614-77e295eb7f18","score":4,"timestamp":"2025-08-04T02:43:47.458Z","verdict":"likely credible"}
 {"level":"warn","message":"Analysis timeout","requestId":"471da2f8-66b0-4040-a614-77e295eb7f18","timestamp":"2025-08-04T02:43:51.006Z"}
 {"environment":"development","level":"info","message":"Server started on port 3001","timestamp":"2025-08-04T02:48:23.467Z"}
+{"environment":"development","level":"info","message":"Server started on port 3001","timestamp":"2025-08-04T04:15:24.277Z"}
+{"environment":"development","level":"info","message":"Server started on port 3001","timestamp":"2025-08-04T04:16:28.291Z"}
+{"environment":"development","level":"info","message":"Server started on port 3001","timestamp":"2025-08-04T04:20:09.634Z"}
+{"environment":"development","level":"info","message":"Server started on port 3001","timestamp":"2025-08-04T04:25:01.859Z"}
+{"environment":"development","level":"info","message":"Server started on port 3001","timestamp":"2025-08-04T04:25:22.969Z"}
+{"level":"info","message":"GET /api/health","requestId":"ef285767-e8ce-4648-b22a-804c4a88912c","timestamp":"2025-08-04T04:26:04.034Z"}
+{"level":"info","message":"GET /api/health","requestId":"c3be976f-6cf6-41a1-94c7-05f8e7acebd0","timestamp":"2025-08-04T04:26:04.052Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"3df9a9df-de5a-4d48-84da-1f0a67fca81a","timestamp":"2025-08-04T04:26:13.895Z"}
+{"level":"info","message":"Analysis completed","requestId":"3df9a9df-de5a-4d48-84da-1f0a67fca81a","score":null,"timestamp":"2025-08-04T04:26:17.328Z","timing":"3.35s","verdict":"likely credible"}
+{"environment":"development","level":"info","message":"Server started on port 3001","timestamp":"2025-08-04T04:27:11.806Z"}
+{"environment":"development","level":"info","message":"Server started on port 3001","timestamp":"2025-08-04T04:27:17.294Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"f253b825-2c06-4fbe-8b77-23fcbace59ec","timestamp":"2025-08-04T04:27:31.393Z"}
+{"level":"info","message":"Analysis completed","requestId":"f253b825-2c06-4fbe-8b77-23fcbace59ec","score":4,"timestamp":"2025-08-04T04:27:33.552Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"f253b825-2c06-4fbe-8b77-23fcbace59ec","timestamp":"2025-08-04T04:27:41.879Z"}
+{"environment":"development","level":"info","message":"Server started on port 3001","timestamp":"2025-08-04T04:28:04.265Z"}
+{"environment":"development","level":"info","message":"Server started on port 3001","timestamp":"2025-08-04T04:28:08.292Z"}
+{"level":"info","message":"GET /api/health","requestId":"22ffd337-76a4-437b-a5f3-a07065248607","timestamp":"2025-08-04T04:28:11.334Z"}
+{"level":"info","message":"GET /api/health","requestId":"2323bde6-d3a1-4b26-aa90-06a7ea2fa7c4","timestamp":"2025-08-04T04:28:11.342Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"b5247293-63a3-4c2b-aa31-0baec7ef073f","timestamp":"2025-08-04T04:28:16.527Z"}
+{"level":"info","message":"Analysis completed","requestId":"b5247293-63a3-4c2b-aa31-0baec7ef073f","score":null,"timestamp":"2025-08-04T04:28:18.573Z","timing":"2.03s","verdict":"likely credible"}
+{"environment":"development","level":"info","message":"Server started on port 3001","timestamp":"2025-08-04T04:33:15.282Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"69a1a21c-4e93-41ea-9362-1f5c04561e6b","timestamp":"2025-08-04T04:33:55.556Z"}
+{"level":"info","message":"Analysis completed","requestId":"69a1a21c-4e93-41ea-9362-1f5c04561e6b","score":4,"timestamp":"2025-08-04T04:33:58.050Z","timing":"2.43s","verdict":"likely credible"}
+{"environment":"development","level":"info","message":"Server started on port 3001","timestamp":"2025-08-04T04:34:18.511Z"}
+{"level":"info","message":"GET /api/health","requestId":"d7be4e16-bddb-42fe-ad17-79c2b443244c","timestamp":"2025-08-04T04:34:23.234Z"}
+{"level":"info","message":"GET /api/health","requestId":"97aa7f1b-d0df-4925-a214-235a17282634","timestamp":"2025-08-04T04:34:23.246Z"}
+{"environment":"development","level":"info","message":"Server started on port 3001","timestamp":"2025-08-04T04:37:15.632Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"26417deb-7f7a-4f5f-aaf1-580184456f91","timestamp":"2025-08-04T04:37:47.838Z"}
+{"level":"info","message":"Analysis completed","requestId":"26417deb-7f7a-4f5f-aaf1-580184456f91","score":4,"timestamp":"2025-08-04T04:37:53.386Z","timing":"5.54s","verdict":"likely credible"}
+{"environment":"development","level":"info","message":"Server started on port 3001","timestamp":"2025-08-04T04:38:16.126Z"}
+{"level":"info","message":"GET /api/health","requestId":"3056da76-25b5-4d25-b365-805d7516fe3c","timestamp":"2025-08-04T04:38:27.330Z"}
+{"level":"info","message":"GET /api/health","requestId":"52e4c94f-d08f-47c6-bbdd-db511294e6aa","timestamp":"2025-08-04T04:38:27.347Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"c20c5349-8e3a-4e36-baa0-8fbaa0e16f24","timestamp":"2025-08-04T04:38:30.898Z"}
+{"level":"info","message":"Analysis completed","requestId":"c20c5349-8e3a-4e36-baa0-8fbaa0e16f24","score":4,"timestamp":"2025-08-04T04:38:32.970Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"c20c5349-8e3a-4e36-baa0-8fbaa0e16f24","timestamp":"2025-08-04T04:38:41.498Z"}
+{"environment":"development","level":"info","message":"Server started on port 3001","timestamp":"2025-08-04T04:38:49.308Z"}
+{"level":"info","message":"GET /api/health","requestId":"42966838-105c-48d3-8501-46766159b900","timestamp":"2025-08-04T04:38:53.479Z"}
+{"level":"info","message":"GET /api/health","requestId":"19d37c9c-73bf-48e3-a84f-01c5cb281b93","timestamp":"2025-08-04T04:38:53.488Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"7899601a-3cc1-4432-bec8-f56a1899e041","timestamp":"2025-08-04T04:38:57.992Z"}
+{"level":"info","message":"Analysis completed","requestId":"7899601a-3cc1-4432-bec8-f56a1899e041","score":null,"timestamp":"2025-08-04T04:38:59.547Z","timing":"1.55s","verdict":"likely credible"}
+{"environment":"development","level":"info","message":"Server started on port 3001","timestamp":"2025-08-04T04:39:06.083Z"}
+{"environment":"development","level":"info","message":"Server started on port 3001","timestamp":"2025-08-04T04:39:10.445Z"}
+{"environment":"development","level":"info","message":"Server started on port 3001","timestamp":"2025-08-04T04:39:17.658Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"dac4242c-31c6-4d42-8eaf-9f2f98724611","timestamp":"2025-08-04T04:39:33.276Z"}
+{"error":"Cannot read properties of undefined (reading 'forEach')","level":"error","message":"ML detection failed","requestId":"dac4242c-31c6-4d42-8eaf-9f2f98724611","timestamp":"2025-08-04T04:39:40.706Z"}
+{"level":"info","message":"Analysis completed","requestId":"dac4242c-31c6-4d42-8eaf-9f2f98724611","score":4,"timestamp":"2025-08-04T04:39:40.708Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"dac4242c-31c6-4d42-8eaf-9f2f98724611","timestamp":"2025-08-04T04:39:44.067Z"}
+{"environment":"development","level":"info","message":"Server started on port 3001","timestamp":"2025-08-04T04:56:40.637Z"}
+{"level":"info","message":"GET /api/health","requestId":"1cf7bdac-414e-467c-be51-ce6a10b232ce","timestamp":"2025-08-04T05:00:03.644Z"}
+{"level":"info","message":"GET /api/health","requestId":"605583c3-1bb8-46c0-92ca-4a1f7198d441","timestamp":"2025-08-04T05:00:03.706Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"c8fca7fb-1896-4b92-82f1-6c85237cae58","timestamp":"2025-08-04T05:00:08.664Z"}
+{"level":"info","message":"Analysis completed","requestId":"c8fca7fb-1896-4b92-82f1-6c85237cae58","score":14,"timestamp":"2025-08-04T05:00:16.759Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"c8fca7fb-1896-4b92-82f1-6c85237cae58","timestamp":"2025-08-04T05:00:19.852Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"005bca6e-e4ec-4a26-b6f9-0d0fb1259866","timestamp":"2025-08-04T05:06:09.695Z"}
+{"level":"info","message":"Analysis completed","requestId":"005bca6e-e4ec-4a26-b6f9-0d0fb1259866","score":14,"timestamp":"2025-08-04T05:06:11.652Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"005bca6e-e4ec-4a26-b6f9-0d0fb1259866","timestamp":"2025-08-04T05:06:19.746Z"}
+{"environment":"development","level":"info","message":"Server started on port 3001","timestamp":"2025-08-04T05:06:56.972Z"}
+{"level":"info","message":"GET /api/health","requestId":"395edf87-0eea-4eec-9e51-6855e9072b3b","timestamp":"2025-08-04T05:08:37.178Z"}
+{"level":"info","message":"GET /api/health","requestId":"2f3b5c0a-61dd-45c6-9148-aeadb0531bb4","timestamp":"2025-08-04T05:08:37.194Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"d3d49296-0567-4f65-acd3-81d6a96d25e4","timestamp":"2025-08-04T05:08:42.047Z"}
+{"level":"info","message":"Analysis completed","requestId":"d3d49296-0567-4f65-acd3-81d6a96d25e4","score":14,"timestamp":"2025-08-04T05:08:52.158Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"d3d49296-0567-4f65-acd3-81d6a96d25e4","timestamp":"2025-08-04T05:08:52.411Z"}
+{"level":"info","message":"GET /api/health","requestId":"0546ca82-8600-4f56-baa7-463fb16f6d50","timestamp":"2025-08-04T07:33:32.937Z"}
+{"level":"info","message":"GET /api/health","requestId":"25246513-dc23-49fa-9906-60f5a0b1c2db","timestamp":"2025-08-04T07:33:32.968Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"224953ff-5b51-44e3-a1d1-f2752b581e97","timestamp":"2025-08-04T07:49:31.766Z"}
+{"level":"warn","message":"Analysis timeout","requestId":"224953ff-5b51-44e3-a1d1-f2752b581e97","timestamp":"2025-08-04T07:49:41.898Z"}
+{"error":"Analysis timeout","level":"error","message":"Analysis failed","requestId":"224953ff-5b51-44e3-a1d1-f2752b581e97","stack":"Error: Analysis timeout\n    at Timeout._onTimeout (C:\\Users\\umindu\\Desktop\\Fake News Detector\\backend\\server.js:183:16)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)","timestamp":"2025-08-04T07:49:41.912Z"}
+{"level":"info","message":"Running fallback analysis","timestamp":"2025-08-04T07:49:41.920Z"}
+{"level":"info","message":"GET /api/health","requestId":"38004a0a-dfa3-4f61-a0d8-20a7bee81bce","timestamp":"2025-08-04T07:49:58.975Z"}
+{"level":"info","message":"GET /api/health","requestId":"09982848-3cb2-4c7b-922c-95470348fdc3","timestamp":"2025-08-04T07:49:58.985Z"}
+{"environment":"development","level":"info","message":"Server started on port 3001","timestamp":"2025-08-05T05:04:14.360Z"}
+{"level":"info","message":"GET /api/health","requestId":"d228ffd1-c4f3-4be7-8cc9-eb6a3094b1c9","timestamp":"2025-08-05T05:04:29.898Z"}
+{"level":"info","message":"GET /api/health","requestId":"02da9695-4b9a-4676-8ac7-88f6594eafe6","timestamp":"2025-08-05T05:04:29.906Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"bc30236a-d130-48b2-94fd-62add1a2f687","timestamp":"2025-08-05T05:04:37.058Z"}
+{"level":"warn","message":"Analysis timeout","requestId":"bc30236a-d130-48b2-94fd-62add1a2f687","timestamp":"2025-08-05T05:04:47.507Z"}
+{"error":"Analysis timeout","level":"error","message":"Analysis failed","requestId":"bc30236a-d130-48b2-94fd-62add1a2f687","stack":"Error: Analysis timeout\n    at Timeout._onTimeout (C:\\Users\\umindu\\Desktop\\Fake News Detector\\backend\\server.js:183:16)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)","timestamp":"2025-08-05T05:04:47.517Z"}
+{"level":"info","message":"Running fallback analysis","timestamp":"2025-08-05T05:04:47.518Z"}
+{"level":"info","message":"GET /api/health","requestId":"26824319-04a4-4ad8-94b1-338e2024ce0e","timestamp":"2025-08-05T05:04:56.893Z"}
+{"level":"info","message":"GET /api/health","requestId":"f2c01d7e-882f-49d5-b877-a384f474f8c2","timestamp":"2025-08-05T05:04:56.897Z"}
+{"level":"info","message":"GET /api/health","requestId":"c6a21f3b-fdbd-41eb-88f4-5708b9b406db","timestamp":"2025-08-05T05:18:18.969Z"}
+{"level":"info","message":"GET /api/health","requestId":"31092bb7-1dd6-4fa5-9699-7f404c144745","timestamp":"2025-08-06T01:35:50.180Z"}
+{"level":"info","message":"GET /api/health","requestId":"566d54dc-b2fb-4e3f-9cc2-a22cf83e7198","timestamp":"2025-08-06T01:35:50.285Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"fe068c78-4a00-492a-bdec-10979fcdbd53","timestamp":"2025-08-06T02:58:00.619Z"}
+{"level":"warn","message":"Analysis timeout","requestId":"fe068c78-4a00-492a-bdec-10979fcdbd53","timestamp":"2025-08-06T02:58:10.784Z"}
+{"error":"Analysis timeout","level":"error","message":"Analysis failed","requestId":"fe068c78-4a00-492a-bdec-10979fcdbd53","stack":"Error: Analysis timeout\n    at Timeout._onTimeout (C:\\Users\\umindu\\Desktop\\Fake News Detector\\backend\\server.js:183:16)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)","timestamp":"2025-08-06T02:58:10.802Z"}
+{"level":"info","message":"Running fallback analysis","timestamp":"2025-08-06T02:58:10.805Z"}
+{"level":"info","message":"GET /api/health","requestId":"b8524bd8-a8fa-457e-b2ad-1edd7a147ca4","timestamp":"2025-08-06T06:20:20.952Z"}
+{"level":"info","message":"GET /api/health","requestId":"b7eb071b-d48e-43c1-b62d-15c68791fc98","timestamp":"2025-08-06T06:20:20.975Z"}
+{"level":"info","message":"GET /api/health","requestId":"044c8f6c-7dbe-43ae-99d7-4f6be2ec85e9","timestamp":"2025-08-06T12:02:15.430Z"}
+{"level":"info","message":"GET /api/health","requestId":"bfeb2b9c-bac3-4031-8d02-e64f3ced2b5b","timestamp":"2025-08-06T14:43:03.810Z"}
+{"level":"info","message":"GET /api/health","requestId":"59e4c33b-f71e-4204-b52c-563c46de6409","timestamp":"2025-08-06T14:43:03.850Z"}
+{"environment":"development","level":"info","message":"Server started on port 3001","timestamp":"2025-08-08T02:13:30.781Z"}
+{"level":"info","message":"GET /api/health","requestId":"d879ae9b-5697-405a-9e4f-45b553b2dbef","timestamp":"2025-08-08T02:24:41.371Z"}
+{"level":"info","message":"GET /api/health","requestId":"ee94910b-1ac6-4702-b706-2354d62daac8","timestamp":"2025-08-08T02:24:41.392Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"22cb7f50-87d0-4fd9-b4a4-4c311e83babe","timestamp":"2025-08-08T02:24:48.483Z"}
+{"level":"info","message":"Analysis completed","requestId":"22cb7f50-87d0-4fd9-b4a4-4c311e83babe","score":14,"timestamp":"2025-08-08T02:24:48.861Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"22cb7f50-87d0-4fd9-b4a4-4c311e83babe","timestamp":"2025-08-08T02:24:58.876Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"921f4484-e9a7-4c89-a4f7-2ad7ef448d8d","timestamp":"2025-08-08T02:25:09.570Z"}
+{"level":"warn","message":"Analysis timeout","requestId":"921f4484-e9a7-4c89-a4f7-2ad7ef448d8d","timestamp":"2025-08-08T02:25:19.858Z"}
+{"error":"Analysis timeout","level":"error","message":"Analysis failed","requestId":"921f4484-e9a7-4c89-a4f7-2ad7ef448d8d","stack":"Error: Analysis timeout\n    at Timeout._onTimeout (C:\\Users\\umindu\\Desktop\\Fake News Detector\\backend\\server.js:183:16)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)","timestamp":"2025-08-08T02:25:19.860Z"}
+{"level":"info","message":"Running fallback analysis","timestamp":"2025-08-08T02:25:19.863Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"4f63c1ad-7167-4208-a13a-a21fa5392f95","timestamp":"2025-08-08T02:25:25.614Z"}
+{"level":"info","message":"Analysis completed","requestId":"4f63c1ad-7167-4208-a13a-a21fa5392f95","score":14,"timestamp":"2025-08-08T02:25:26.917Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"4f63c1ad-7167-4208-a13a-a21fa5392f95","timestamp":"2025-08-08T02:25:35.617Z"}
+{"level":"info","message":"POST /api/analyze","requestId":"b768d9a0-9dbb-459e-ad11-4a12900ebfe5","timestamp":"2025-08-08T02:47:32.450Z"}
+{"level":"info","message":"Analysis completed","requestId":"b768d9a0-9dbb-459e-ad11-4a12900ebfe5","score":14,"timestamp":"2025-08-08T02:47:37.724Z","verdict":"likely credible"}
+{"level":"warn","message":"Analysis timeout","requestId":"b768d9a0-9dbb-459e-ad11-4a12900ebfe5","timestamp":"2025-08-08T02:47:42.509Z"}
